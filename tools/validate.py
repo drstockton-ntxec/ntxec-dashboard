@@ -98,6 +98,9 @@ def main():
         r = contrast(c["label"], c["dark"])
         if r < 4.5:
             errors.append(f"{code}: 'label' {c['label']} has {r:.2f}:1 contrast on 'dark' (needs 4.5)")
+        for k, val in (d.get("fonts") or {}).items():
+            if k in ("display", "body") and not re.match(r"^[A-Za-z0-9 ]+$", str(val)):
+                errors.append(f"{code}: font '{k}' must be a Google Fonts family name")
         logo = d.get("logo")
         if logo and not (ROOT / logo).exists():
             errors.append(f"{code}: logo file {logo} not found")

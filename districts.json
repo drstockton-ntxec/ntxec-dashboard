@@ -21,5 +21,24 @@
       "highlight": "#A18D50",
       "label": "#C0A56B"
     }
+  },
+  "plano": {
+    "name": "Plano ISD",
+    "cobrand": true,
+    "logo": "logos/plano.png",
+    "logoHeight": 88,
+    "website": "https://www.pisd.edu",
+    "colors": {
+      "primary": "#9D2235",
+      "dark": "#393C3D",
+      "highlight": "#9D2235",
+      "label": "#D4A43A"
+    },
+    "fonts": {
+      "display": "Barlow Condensed",
+      "displayWeights": "600;700;800",
+      "body": "Lato"
+    },
+    "showName": false
   }
 }

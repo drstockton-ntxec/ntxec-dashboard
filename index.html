@@ -174,14 +174,19 @@ function applyBrand(D){
   if(c.dark)root.setProperty("--brand-dark",c.dark);
   if(c.highlight)root.setProperty("--brand-highlight",c.highlight);
   if(c.label)root.setProperty("--brand-label",c.label);
+  const f=D.fonts||{}, fam=(n,w)=>`family=${n.trim().replace(/ /g,"+")}:wght@${w}`, load=[];
+  if(f.display){load.push(fam(f.display,f.displayWeights||"600;700;800"));root.setProperty("--f-display",`"${f.display}",Arial,sans-serif`)}
+  if(f.body&&f.body!=="Lato"){load.push(fam(f.body,"400;700"))}
+  if(f.body)root.setProperty("--f-body",`"${f.body}",Arial,Helvetica,sans-serif`);
+  if(load.length){const l=document.createElement("link");l.rel="stylesheet";l.href=`https://fonts.googleapis.com/css2?${load.join("&")}&display=swap`;document.head.appendChild(l)}
   if(!D.cobrand)return;
   document.title=`${D.name}: 90th Session Education Bills`;
   document.getElementById("eyebrow").textContent="Legislative Tracking";
   const brand=document.getElementById("brand");
   if(D.logo){
-    const img=document.createElement("img");img.src=D.logo;img.alt=`${D.name} logo`;brand.appendChild(img);
+    const img=document.createElement("img");img.src=D.logo;img.alt=`${D.name} logo`;if(D.logoHeight)img.style.height=D.logoHeight+"px";brand.appendChild(img);
   }
-  const w=document.createElement("span");w.className="wordmark";w.textContent=D.name;brand.appendChild(w);
+  if(!(D.logo&&D.showName===false)){const w=document.createElement("span");w.className="wordmark";w.textContent=D.name;brand.appendChild(w)}
   const wth=document.createElement("span");wth.className="with";wth.textContent="In partnership with the North Texas Education Coalition";brand.appendChild(wth);
   brand.hidden=false;
   document.getElementById("intro").textContent=`${D.name} shares this dashboard from the North Texas Education Coalition (NTXEC), a nonpartisan coalition of North Texas public school districts. It lists every bill NTXEC is following that affects Texas public schools, sorted into twelve policy areas, with where each bill stands and NTXEC's impact designation for districts.`;
