@@ -13,14 +13,13 @@
   "mesquite": {
     "name": "Mesquite ISD",
     "cobrand": true,
-    "placeholder": true,
-    "logo": null,
+    "logo": "logos/mesquite.png",
     "website": "https://www.mesquiteisd.org",
     "colors": {
-      "primary": "#4A5568",
-      "dark": "#1A202C",
-      "highlight": "#4A5568",
-      "label": "#E2E8F0"
+      "primary": "#0C2577",
+      "dark": "#081A53",
+      "highlight": "#A18D50",
+      "label": "#C0A56B"
     }
   }
 }

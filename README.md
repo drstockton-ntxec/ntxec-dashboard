@@ -40,4 +40,6 @@ If the district's website does not allow scripts, the iframe line alone still wo
 
 ## Refreshing the data
 
-Replace `bills.json` with a new pull from USLege, run `python3 tools/validate.py --previous-count <old bill count>`, and commit. Every district page updates within a few minutes. Set `"preview": false` when live 90th session data begins.
+The data comes from the twelve "(90)" Issue tracks in NTXEC's USLege account, one per policy area, and the public "90th Legislative Session Education Bills" portal. A bill shows **Read summary** when NTXEC has posted a portal comment on it. `tools/build_bills.py` explains the three steps (track pass, lookups, build) and carries forward anything that has not changed. After building, run `python3 tools/validate.py --previous-count <old bill count>` and commit only if it passes. Every district page updates within a few minutes of the commit.
+
+Until prefiling opens November 9, 2026, the 90th tracks are empty and the builder leaves the 89th session preview in place.
