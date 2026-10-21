@@ -15,8 +15,14 @@ One education bill dashboard for the 90th Texas Legislature, shared by NTXEC and
 
 ## Links
 
-- NTXEC: `https://dashboard.ntxec.org/?d=ntxec`
-- Mesquite ISD: `https://dashboard.ntxec.org/?d=mesquite`
+| District | Link |
+| --- | --- |
+| NTXEC | `https://dashboard.ntxec.org/?d=ntxec` |
+| Mesquite ISD | `https://dashboard.ntxec.org/?d=mesquite` |
+| Plano ISD | `https://dashboard.ntxec.org/?d=plano` |
+| Denton ISD | `https://dashboard.ntxec.org/?d=denton` |
+| Dallas ISD | `https://dashboard.ntxec.org/?d=dallas` |
+| Richardson ISD | `https://dashboard.ntxec.org/?d=richardson` |
 
 ## Embed code for a district
 
@@ -34,9 +40,12 @@ If the district's website does not allow scripts, the iframe line alone still wo
 
 ## Adding a district
 
-1. Add the logo file under `logos/` (the district's official file, unaltered).
-2. Add an entry to `districts.json` with the district's official colors.
-3. Run `python3 tools/validate.py`. It fails if a color is too light to read on white.
+1. Add the district's official logo file under `logos/` (resized proportionally, otherwise unaltered).
+2. Add an entry to `districts.json`. Settings:
+   - `colors.primary`: bars, links and rules. `colors.dark`: title, the "At a glance" band, table header, and High impact. `colors.highlight`: the "Education Bills" accent. `colors.label`: the small label on the dark band. `colors.medium` (optional): Medium impact, when primary is too close to dark.
+   - `fonts.display` and `fonts.body` (optional): Google Fonts family names; `fonts.displayWeights` lists the heading weights to load.
+   - `logoHeight` (optional, pixels) and `showName: false` when the logo already spells out the district name.
+3. Run `python3 tools/validate.py`. It fails if a color is too light to read, or if High and Medium impact would look alike.
 
 ## Refreshing the data
 
