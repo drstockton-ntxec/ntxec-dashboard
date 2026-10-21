@@ -1,0 +1,26 @@
+{
+  "ntxec": {
+    "name": "North Texas Education Coalition",
+    "cobrand": false,
+    "logo": null,
+    "colors": {
+      "primary": "#004AAD",
+      "dark": "#0B2447",
+      "highlight": "#FF5757",
+      "label": "#FCD739"
+    }
+  },
+  "mesquite": {
+    "name": "Mesquite ISD",
+    "cobrand": true,
+    "placeholder": true,
+    "logo": null,
+    "website": "https://www.mesquiteisd.org",
+    "colors": {
+      "primary": "#4A5568",
+      "dark": "#1A202C",
+      "highlight": "#4A5568",
+      "label": "#E2E8F0"
+    }
+  }
+}

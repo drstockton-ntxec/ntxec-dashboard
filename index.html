@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>90th Session Bill Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Lato:wght@400;700&display=swap">
+<style>
+html,body{margin:0;padding:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+
+/* Shared district dashboard. Brand colors are set at load time from districts.json. Eyebrow over navy title, a navy "at a glance" band, a 2x2 grid of square chart panels under blue rules, then the full bill docket with navy table header. Single light look, matching the NTXEC design system (light theme only). */
+:root{
+  color-scheme:light;
+  --brand-primary:#004AAD; --brand-highlight:#FF5757; --brand-dark:#0B2447; --brand-label:#FCD739;
+  --slate:#334155; --steel:#445064; --mist-gray:#728093; --rule-gray:#DCE4ED; --panel-tint:#F5F8FC;
+  --surface:#FFFFFF; --on-dark:#FFFFFF; --on-dark-muted:#DBE7F5;
+  --blue-tint:color-mix(in srgb,var(--brand-primary) 46%,#FFFFFF); /* tint of the brand primary for the lowest impact step */
+  --bg:var(--surface); --ink:var(--brand-dark); --ink-2:var(--slate); --muted:var(--mist-gray); --line:var(--rule-gray);
+  --accent:var(--brand-primary); --accent-ink:var(--brand-dark); --accent-soft:var(--panel-tint);
+  --imp-high:var(--brand-dark); --imp-med:var(--brand-primary); --imp-low:var(--blue-tint); --imp-none:var(--rule-gray);
+  --f-display:"Montserrat",Arial,sans-serif;
+  --f-body:"Lato",Arial,Helvetica,sans-serif;
+  --f-mono:"Lato",Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink-2);font:15px/1.45 var(--f-body);-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:clamp(16px,4vw,48px);padding-block:32px 56px;display:grid;gap:32px}
+a{color:var(--brand-primary);font-weight:700}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--brand-primary);outline-offset:2px}
+.eyebrow{font:700 12px/16px var(--f-display);letter-spacing:.18em;text-transform:uppercase;color:var(--brand-primary)}
+header.mast{display:grid;gap:8px;border-bottom:2px solid var(--brand-primary);padding-bottom:20px}
+header.mast h1{font:800 clamp(30px,4.6vw,48px)/1.05 var(--f-display);letter-spacing:-.02em;margin:4px 0 6px;color:var(--brand-dark);text-wrap:balance}
+header.mast h1 em{font-style:normal;color:var(--brand-highlight)}
+header.mast p{margin:0;max-width:68ch;color:var(--steel)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 20px;color:var(--mist-gray);font-size:13px}
+.meta b{color:var(--slate);font-weight:700}
+.notice{background:var(--panel-tint);border-left:3px solid var(--brand-primary);color:var(--slate);padding:14px 16px;font-size:14px}
+.notice b{color:var(--brand-dark)}
+.glance{background:var(--brand-dark);color:var(--on-dark);padding:22px 24px;display:grid;gap:14px}
+.glance .eyebrow{color:var(--brand-label)}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.kpi{padding:4px 20px 2px;display:grid;gap:6px;align-content:start;border-left:1px solid rgba(219,231,245,.28)}
+.kpi:first-child{border-left:0;padding-left:0}
+.kpi .n{font:800 clamp(32px,4.2vw,44px)/1 var(--f-display);letter-spacing:-.02em;color:var(--on-dark);font-variant-numeric:tabular-nums}
+.kpi .l{color:var(--on-dark-muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 32px}
+.panel{display:grid;gap:12px;min-width:0;align-content:start}
+.panel.wide{grid-column:1/-1}
+.panel h2{font:800 20px/26px var(--f-display);margin:0;color:var(--brand-dark);padding-bottom:10px;border-bottom:2px solid var(--brand-primary)}
+.panel .sub{margin:0;color:var(--steel);font-size:13.5px}
+.src{margin:0;color:var(--mist-gray);font-size:12px}
+svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{fill:var(--slate);font:12.5px var(--f-body)}
+svg .val{fill:var(--brand-dark);font-weight:700;font-variant-numeric:tabular-nums}
+svg .tick{fill:var(--mist-gray);font-size:11.5px}
+svg .grid-line{stroke:var(--rule-gray);stroke-width:1}
+.bar{fill:var(--brand-primary)}
+.bar:hover,.bar.hot{fill:var(--brand-dark)}
+.hit{fill:transparent;cursor:default}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--slate)}
+.legend i{display:inline-block;width:11px;height:11px;margin-right:6px;vertical-align:-1px}
+.legend b{color:var(--brand-dark)}
+.tip{position:fixed;pointer-events:none;background:var(--brand-dark);color:var(--on-dark);font:13px/1.35 var(--f-body);padding:8px 11px;max-width:260px;z-index:10;box-shadow:0 4px 14px rgba(11,36,71,.22)}
+.tip b{font-weight:700}
+section.docket{display:grid;gap:14px}
+.docket-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px;border-bottom:2px solid var(--brand-primary);padding-bottom:12px}
+.docket-head h2{font:800 24px/30px var(--f-display);margin:0;color:var(--brand-dark)}
+.filters{display:flex;flex-wrap:wrap;gap:10px}
+.filters input,.filters select{font:14px var(--f-body);color:var(--slate);background:var(--surface);border:1px solid var(--rule-gray);border-radius:2px;padding:8px 10px;min-width:0}
+.filters input{width:min(260px,100%)}
+.table-wrap{overflow-x:auto;border:1px solid var(--rule-gray)}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:14px}
+th{position:sticky;top:0;background:var(--brand-dark);text-align:left;font:700 11.5px/1 var(--f-display);letter-spacing:.12em;text-transform:uppercase;color:var(--on-dark);padding:13px 14px}
+td{padding:13px 14px;border-bottom:1px solid var(--rule-gray);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.billno{font:700 14px var(--f-body);white-space:nowrap}
+.billno a:first-child{font-size:15px}
+.billno small{display:block;color:var(--mist-gray);font:400 12px var(--f-body);margin-top:3px}
+.cap{color:var(--slate);max-width:52ch}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}
+.chip{font-size:11.5px;color:var(--brand-dark);background:var(--panel-tint);border:1px solid var(--rule-gray);padding:1px 7px;white-space:nowrap}
+.pill{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--brand-dark);white-space:nowrap}
+.pill i{width:10px;height:10px;display:inline-block}
+.stage{font-size:13px;white-space:nowrap;color:var(--slate)}
+.last{font-size:13px;color:var(--slate);min-width:180px}
+.last time{display:block;color:var(--mist-gray);font-size:12px;font-variant-numeric:tabular-nums}
+.read{display:inline-block;margin-top:8px;font:700 12.5px var(--f-body);color:var(--brand-primary);text-decoration:none;white-space:nowrap}
+.read:hover{text-decoration:underline}
+.hint{margin:0;color:var(--steel);font-size:14px}
+.hint b{color:var(--brand-dark)}
+.count{color:var(--mist-gray);font-size:13px}
+.more{justify-self:center;font:700 14px var(--f-body);color:var(--on-dark);background:var(--brand-primary);border:0;border-radius:2px;padding:10px 18px;cursor:pointer}
+.more:hover{background:var(--brand-dark)}
+.empty{padding:28px;text-align:center;color:var(--mist-gray)}
+footer{color:var(--mist-gray);font-size:12.5px;border-top:2px solid var(--brand-primary);padding-top:14px;display:grid;gap:6px;max-width:84ch}
+footer .org{font:700 11.5px var(--f-display);letter-spacing:.14em;text-transform:uppercase;color:var(--mist-gray)}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}.kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 0}.kpi:nth-child(3){border-left:0;padding-left:0}}
+@media (prefers-reduced-motion:no-preference){.bar{transition:fill .15s}}
+
+.brand{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+.brand img{height:64px;width:auto;max-width:260px;object-fit:contain}
+.brand .wordmark{white-space:nowrap;font:800 20px/1.1 var(--f-display);color:var(--brand-dark);letter-spacing:-.01em}
+.brand .with{font:700 11px/1.3 var(--f-display);letter-spacing:.14em;text-transform:uppercase;color:var(--mist-gray);border-left:1px solid var(--rule-gray);padding-left:14px}
+.notice.placeholder{border-left-color:var(--brand-highlight)}
+.loading{padding:60px 0;text-align:center;color:var(--mist-gray)}
+.wrap[aria-busy="true"] > :not(.loading){visibility:hidden}
+</style>
+</head>
+<body>
+<div class="wrap" id="wrap" aria-busy="true">
+  <div class="loading" id="loading">Loading bill data…</div>
+  <header class="mast">
+    <div class="brand" id="brand" hidden></div>
+    <span class="eyebrow" id="eyebrow">North Texas Education Coalition (NTXEC)</span>
+    <h1>90th Legislative Session <em>Education Bills</em></h1>
+    <p id="intro">Every bill NTXEC is following that affects Texas public schools, sorted into twelve policy areas, with where each bill stands and NTXEC's impact designation for districts.</p>
+    <div class="meta"><span>Data refreshed <b id="updated"></b></span><span>Source: Texas Legislature via USLege</span><span>Bill links open NTXEC's bill portal, with summaries where available</span></div>
+  </header>
+
+  <div class="notice placeholder" id="placeholder-note" hidden></div>
+
+  <div class="notice" id="preview-note" hidden><b>Preview.</b> This layout is shown with the 105 education bills NTXEC tracked in the 89th Legislature (2025), all of which became law. Live 90th session data begins when bill prefiling opens November 9, 2026. Until the 90th session portal is public, bill links in this preview open Texas Legislature Online instead of the portal.</div>
+
+  <div class="glance"><span class="eyebrow">At a glance</span><div class="kpis" id="kpis"></div></div>
+
+  <div class="grid">
+    <div class="panel"><h2>Bills by policy area</h2><p class="sub">A bill that touches several areas is counted in each one.</p><div id="c-areas"></div><p class="src">Source: NTXEC bill tracking in USLege.</p></div>
+    <div class="panel"><h2>Where the bills stand</h2><p class="sub">Furthest step each bill has reached in the legislative process.</p><div id="c-stage"></div><p class="src">Source: Texas Legislature bill histories via USLege.</p></div>
+    <div class="panel wide"><h2>NTXEC impact designation</h2><p class="sub">NTXEC's assessment of each bill's expected effect on school districts.</p><div id="c-impact"></div><p class="src">Source: NTXEC impact designations.</p></div>
+  </div>
+
+  <section class="docket" aria-labelledby="docket-h">
+    <div class="docket-head">
+      <h2 id="docket-h">Bill docket</h2>
+      <div class="filters">
+        <label class="sr" for="q" hidden>Search</label>
+        <input id="q" type="search" placeholder="Search bill number or topic" aria-label="Search bill number or topic">
+        <select id="f-area" aria-label="Policy area"><option value="">All policy areas</option></select>
+        <select id="f-impact" aria-label="Impact"><option value="">All impact levels</option><option>High</option><option>Medium</option><option>Low</option><option value="none">Not yet rated</option></select>
+        <select id="f-sum" aria-label="Summary"><option value="">With or without summary</option><option value="y">Has NTXEC summary</option></select>
+        <select id="f-sort" aria-label="Sort"><option value="last">Latest action first</option><option value="num">Bill number</option></select>
+      </div>
+    </div>
+    <p class="hint">Select any bill to open it in NTXEC's bill portal, with its full legislative history and NTXEC's summary when one is available. Bills marked <b>Read summary</b> already have an NTXEC summary.</p>
+    <div class="count" id="count"></div>
+    <div class="table-wrap"><table><thead><tr><th>Bill</th><th>Subject and policy areas</th><th>NTXEC impact</th><th>Status</th><th>Latest action</th></tr></thead><tbody id="rows"></tbody></table></div>
+    <button class="more" id="more" type="button" hidden>Show more bills</button>
+  </section>
+
+  <footer>
+    <span class="org">North Texas Education Coalition · Legislative Tracking</span>
+    <span>NTXEC is a nonpartisan coalition of North Texas public school districts. NTXEC does not generally adopt positions on legislation. Impact designations describe expected effects on district operations and are not positions for or against any bill.</span>
+    <span>Bill captions are the official captions filed with the Texas Legislature.</span>
+    <span id="cobrand" hidden></span>
+  </footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+
+/* ---------- Load data and district branding ---------- */
+const params=new URLSearchParams(location.search);
+const CODE=(params.get("d")||"ntxec").toLowerCase().replace(/[^a-z0-9-]/g,"");
+
+function applyBrand(D){
+  const root=document.documentElement.style, c=D.colors||{};
+  if(c.primary)root.setProperty("--brand-primary",c.primary);
+  if(c.dark)root.setProperty("--brand-dark",c.dark);
+  if(c.highlight)root.setProperty("--brand-highlight",c.highlight);
+  if(c.label)root.setProperty("--brand-label",c.label);
+  if(!D.cobrand)return;
+  document.title=`${D.name}: 90th Session Education Bills`;
+  document.getElementById("eyebrow").textContent="Legislative Tracking";
+  const brand=document.getElementById("brand");
+  if(D.logo){
+    const img=document.createElement("img");img.src=D.logo;img.alt=D.name;brand.appendChild(img);
+  }else{
+    const w=document.createElement("span");w.className="wordmark";w.textContent=D.name;brand.appendChild(w);
+  }
+  const wth=document.createElement("span");wth.className="with";wth.textContent="In partnership with the North Texas Education Coalition";brand.appendChild(wth);
+  brand.hidden=false;
+  document.getElementById("intro").textContent=`${D.name} shares this dashboard from the North Texas Education Coalition (NTXEC), a nonpartisan coalition of North Texas public school districts. It lists every bill NTXEC is following that affects Texas public schools, sorted into twelve policy areas, with where each bill stands and NTXEC's impact designation for districts.`;
+  const cb=document.getElementById("cobrand");
+  cb.innerHTML=`Bill tracking and impact designations by the <a href="https://www.ntxec.org" target="_blank" rel="noopener">North Texas Education Coalition</a>. Shared by ${esc(D.name)}.`;
+  cb.hidden=false;
+  if(D.placeholder){
+    const p=document.getElementById("placeholder-note");
+    p.innerHTML=`<b>Test version.</b> The colors and name treatment on this page are placeholders. ${esc(D.name)}'s official logo and brand colors will replace them before launch.`;
+    p.hidden=false;
+  }
+}
+
+/* Tell a parent page (the district's site) how tall the dashboard is, so the iframe can fit it without an inner scroll bar. */
+function reportHeight(){
+  if(window.parent===window)return;
+  const h=Math.ceil(document.documentElement.getBoundingClientRect().height);
+  window.parent.postMessage({type:"ntxec-dashboard-height",height:h,district:CODE},"*");
+}
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+Promise.all([
+  fetch("bills.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error("bills "+r.status);return r.json()}),
+  fetch("districts.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error("districts "+r.status);return r.json()})
+]).then(([DATA,districts])=>{
+  applyBrand(districts[CODE]||districts.ntxec);
+  run(DATA);
+  document.getElementById("loading").remove();
+  document.getElementById("wrap").removeAttribute("aria-busy");
+  reportHeight();
+  if("ResizeObserver" in window)new ResizeObserver(reportHeight).observe(document.documentElement);
+  window.addEventListener("load",reportHeight);
+}).catch(err=>{
+  console.error(err);
+  document.getElementById("loading").textContent="The bill data could not be loaded right now. Please refresh the page or try again later.";
+});
+
+/* ---------- Dashboard (identical to the NTXEC dashboard) ---------- */
+function run(DATA){
+
+
+const AREAS=["School Finance","Property Taxes","Bonds, Elections & Debt","Governance & Local Control","Accountability & Assessment","Curriculum & Instruction","Educator Workforce","Special Populations","Student Health & Discipline","School Safety","School Choice & Charters","Operations & Business"];
+const STAGES=[["introduced","Filed"],["first_committee","In committee, first chamber"],["first_floor","On the floor, first chamber"],["second_committee","In committee, second chamber"],["second_floor","On the floor, second chamber"],["governor","Sent to governor"],["became_law","Became law"]];
+const STAGE_LABEL=Object.fromEntries(STAGES);
+const IMPACTS=[["High","--imp-high"],["Medium","--imp-med"],["Low","--imp-low"],["","--imp-none"]];
+const impLabel=i=>i||"Not yet rated";
+const bills=DATA.bills;
+const MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const fmtDate=s=>{if(!s)return"";const[y,m,d]=s.split("-").map(Number);return `${MONTHS[m-1]} ${d}, ${y}`};
+const SVGNS="http://www.w3.org/2000/svg";
+function el(tag,attrs={},parent){const e=document.createElementNS(SVGNS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e}
+
+/* tooltip */
+const tip=document.getElementById("tip");
+function showTip(ev,html){tip.innerHTML=html;tip.hidden=false;const pad=14;let x=ev.clientX+pad,y=ev.clientY+pad;const r=tip.getBoundingClientRect();if(x+r.width>innerWidth-8)x=ev.clientX-r.width-pad;if(y+r.height>innerHeight-8)y=ev.clientY-r.height-pad;tip.style.left=x+"px";tip.style.top=y+"px"}
+function hideTip(){tip.hidden=true}
+function bindTip(node,html,mark){node.addEventListener("mousemove",e=>{showTip(e,html);mark&&mark.classList.add("hot")});node.addEventListener("mouseleave",()=>{hideTip();mark&&mark.classList.remove("hot")})}
+
+/* header + kpis */
+document.getElementById("updated").textContent=fmtDate(DATA.updated);
+document.getElementById("preview-note").hidden=!DATA.preview;
+const stageIdx=s=>STAGES.findIndex(x=>x[0]===s);
+const k=[
+  [bills.length,"education bills tracked"],
+  [bills.filter(b=>b.i==="High").length,"rated high impact by NTXEC"],
+  [bills.filter(b=>stageIdx(b.st)>=3).length,"have passed one chamber"],
+  [bills.filter(b=>b.st==="became_law").length,"have become law"]
+];
+document.getElementById("kpis").innerHTML=k.map(([n,l])=>`<div class="kpi"><span class="n">${n.toLocaleString()}</span><span class="l">${l}</span></div>`).join("");
+
+/* horizontal bar chart */
+function hbar(target,rows,{labelW=190,unit="bills"}={}){
+  const W=560,rowH=26,gap=8,top=4,H=top+rows.length*(rowH+gap);
+  const max=Math.max(1,...rows.map(r=>r[1]));
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":rows.map(r=>`${r[0]}: ${r[1]}`).join("; ")});
+  const x0=labelW,x1=W-44,sc=v=>(x1-x0)*v/max;
+  rows.forEach(([lab,v],i)=>{
+    const y=top+i*(rowH+gap);
+    const t=el("text",{x:x0-10,y:y+rowH/2+4,"text-anchor":"end"},svg);t.textContent=lab;
+    el("rect",{x:x0,y:y,width:x1-x0,height:rowH,rx:0,fill:"var(--panel-tint)"},svg);
+    const w=Math.max(v?3:0,sc(v));
+    const bar=el("rect",{class:"bar",x:x0,y:y,width:w,height:rowH,rx:0},svg);
+    const vt=el("text",{class:"val",x:x0+w+8,y:y+rowH/2+4},svg);vt.textContent=v.toLocaleString();
+    const hit=el("rect",{class:"hit",x:0,y:y-gap/2,width:W,height:rowH+gap},svg);
+    bindTip(hit,`<b>${esc(lab)}</b><br>${v.toLocaleString()} ${unit} (${Math.round(100*v/Math.max(1,bills.length))}% of tracked)`,bar);
+  });
+  document.getElementById(target).appendChild(svg);
+}
+const areaCounts=AREAS.map(a=>[a,bills.filter(b=>b.a.includes(a)).length]).sort((p,q)=>q[1]-p[1]);
+hbar("c-areas",areaCounts,{labelW:200});
+const stageCounts=STAGES.map(([s,l])=>[l,bills.filter(b=>b.st===s).length]);
+hbar("c-stage",stageCounts,{labelW:210});
+
+/* impact: one stacked bar plus legend */
+(function(){
+  const W=1100,H=48,x0=0,x1=W;const total=Math.max(1,bills.length);
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img"});let x=x0;const parts=[];
+  IMPACTS.forEach(([lev,tok])=>{
+    const v=bills.filter(b=>(b.i||"")===lev).length;parts.push([lev,v,tok]);if(!v)return;
+    const w=(x1-x0)*v/total;
+    const r=el("rect",{x:x,y:0,width:Math.max(0,w-2),height:40,rx:0,fill:`var(${tok})`},svg);
+    if(w>36){const t=el("text",{class:"val",x:x+8,y:25},svg);t.textContent=v;t.setAttribute("style",`fill:var(${lev==="High"||lev==="Medium"?"--on-dark":"--ntxec-navy"})`)}
+    bindTip(r,`<b>${impLabel(lev)}</b><br>${v} bills (${Math.round(100*v/total)}%)`);
+    x+=w;
+  });
+  svg.setAttribute("aria-label",parts.map(p=>`${impLabel(p[0])}: ${p[1]}`).join("; "));
+  const box=document.getElementById("c-impact");box.appendChild(svg);
+  const lg=document.createElement("div");lg.className="legend";
+  lg.innerHTML=parts.map(([lev,v,tok])=>`<span><i style="background:var(${tok})"></i>${impLabel(lev)} <b>${v}</b></span>`).join("");
+  box.appendChild(lg);
+})();
+
+
+/* docket table */
+const sel=document.getElementById("f-area");AREAS.forEach(a=>{const o=document.createElement("option");o.textContent=a;sel.appendChild(o)});
+const tloSess=s=>s.replace(/R$/,"R");
+/* Set PORTAL_BILL_URL to the public portal's bill page pattern once the 90th portal is public.
+   Placeholders: {type} (HB), {number} (2), {session} (90R). Until set, links open Texas Legislature Online. */
+const PORTAL_BILL_URL="";
+const tlo=b=>{const [t,n]=b.b.split(" ");return `https://capitol.texas.gov/BillLookup/History.aspx?LegSess=${encodeURIComponent(b.s)}&Bill=${t}${n}`};
+const billLink=b=>{if(!PORTAL_BILL_URL)return tlo(b);const [t,n]=b.b.split(" ");return PORTAL_BILL_URL.replace("{type}",t).replace("{number}",n).replace("{session}",b.s)};
+const sessName=s=>s.endsWith("R")?"Regular session":s.endsWith("1")?"1st called session":s.endsWith("2")?"2nd called session":"Called session";
+const impTok=i=>(IMPACTS.find(x=>x[0]===(i||""))||IMPACTS[3])[1];
+let shown=25;
+function render(){
+  const q=document.getElementById("q").value.trim().toLowerCase();
+  const fa=sel.value,fs=document.getElementById("f-sum").value,fi=document.getElementById("f-impact").value,so=document.getElementById("f-sort").value;
+  let list=bills.filter(b=>(!fa||b.a.includes(fa))&&(!fs||b.sm)&&(!fi||(fi==="none"?!b.i:b.i===fi))&&(!q||(b.b+" "+b.b.replace(" ","")+" "+b.c+" "+b.a.join(" ")).toLowerCase().includes(q)));
+  const num=b=>{const[t,n]=b.b.split(" ");return [t,+n]};
+  list.sort(so==="num"?(x,y)=>{const[a,an]=num(x),[b,bn]=num(y);return a<b?-1:a>b?1:an-bn}:(x,y)=>y.l.localeCompare(x.l));
+  document.getElementById("count").textContent=`${list.length.toLocaleString()} of ${bills.length.toLocaleString()} bills`;
+  const rows=document.getElementById("rows");
+  if(!list.length){rows.innerHTML=`<tr><td colspan="5" class="empty">No bills match these filters.</td></tr>`;document.getElementById("more").hidden=true;return}
+  rows.innerHTML=list.slice(0,shown).map(b=>`<tr>
+    <td class="billno"><a href="${billLink(b)}" target="_blank" rel="noopener" aria-label="${esc(b.b)}: ${b.sm?"read NTXEC summary":"view bill"}">${esc(b.b)}</a><small>${sessName(b.s)}</small><a class="read" href="${billLink(b)}" target="_blank" rel="noopener">${b.sm?"Read summary":"View bill"} <span aria-hidden="true">›</span></a></td>
+    <td><div class="cap">${esc(b.c)}</div><div class="chips">${b.a.map(a=>`<span class="chip">${esc(a)}</span>`).join("")}</div></td>
+    <td><span class="pill"><i style="background:var(${impTok(b.i)})"></i>${impLabel(b.i)}</span></td>
+    <td class="stage">${esc(STAGE_LABEL[b.st]||"Filed")}</td>
+    <td class="last">${esc(b.la)}<time datetime="${b.l}">${fmtDate(b.l)}</time></td></tr>`).join("");
+  const more=document.getElementById("more");more.hidden=list.length<=shown;more.textContent=`Show ${Math.min(25,list.length-shown)} more bills`;
+}
+["q","f-area","f-impact","f-sum","f-sort"].forEach(id=>document.getElementById(id).addEventListener("input",()=>{shown=25;render()}));
+document.getElementById("more").addEventListener("click",()=>{shown+=25;render()});
+render();
+
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Embed Test</title>
+<style>
+  body{margin:0;font:16px/1.5 Arial,Helvetica,sans-serif;background:#eef1f4;color:#1a202c}
+  .site-header{background:#1a202c;color:#fff;padding:18px 24px;font-weight:700}
+  main{max-width:1240px;margin:0 auto;padding:24px 16px}
+  .card{background:#fff;padding:16px}
+  p{max-width:70ch}
+</style>
+</head>
+<body>
+  <div class="site-header">Sample district website (embed test)</div>
+  <main>
+    <p>This page stands in for a district website. The dashboard below is loaded in an iframe exactly as a district would embed it, using the snippet in README.md. Add <code>?d=ntxec</code> to this page's address to test NTXEC branding.</p>
+    <div class="card">
+      <iframe id="dash" src="./?d=mesquite" title="90th Legislative Session education bill dashboard" style="width:100%;border:0;min-height:900px" loading="lazy" data-ntxec-dashboard></iframe>
+    </div>
+    <p>Content after the dashboard, to confirm the frame grows to fit instead of scrolling.</p>
+  </main>
+  <script>
+    var d = new URLSearchParams(location.search).get("d");
+    if (d) document.getElementById("dash").src = "./?d=" + encodeURIComponent(d);
+  </script>
+  <script src="embed.js" async></script>
+</body>
+</html>

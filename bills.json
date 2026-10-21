@@ -1,0 +1,1522 @@
+{
+ "updated": "2026-10-07",
+ "preview": true,
+ "bills": [
+  {
+   "b": "HB 2",
+   "s": "89R",
+   "c": "Relating to public education and public school finance.",
+   "a": [
+    "School Finance",
+    "Curriculum & Instruction",
+    "Educator Workforce",
+    "Special Populations",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-06-20",
+   "la": "See remarks for effective date",
+   "sm": true
+  },
+  {
+   "b": "HB 6",
+   "s": "89R",
+   "c": "Relating to discipline management and access to telehealth mental health services in public schools.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "High",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": true
+  },
+  {
+   "b": "HB 8",
+   "s": "892",
+   "c": "Relating to public school accountability and transparency, including the implementation of an instructionally supportive assessment program and the adoption and administration of assessment instruments in public schools, indicators of achievement, public school performance ratings, and interventions and sanctions under the public school accountability system, a grant program for school district local accountability plans, and actions challenging Texas Education Agency decisions related to public school accountability.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "High",
+   "st": "became_law",
+   "f": "2025-08-15",
+   "l": "2025-09-17",
+   "la": "See remarks for effective date",
+   "sm": true
+  },
+  {
+   "b": "HB 9",
+   "s": "89R",
+   "c": "Relating to an exemption from ad valorem taxation of a portion of the appraised value of tangible personal property that is held or used for the production of income.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-24",
+   "l": "2025-06-12",
+   "la": "See remarks for effective date",
+   "sm": false
+  },
+  {
+   "b": "HB 20",
+   "s": "89R",
+   "c": "Relating to establishing the Applied Sciences Pathway program.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-12-23",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 22",
+   "s": "89R",
+   "c": "Relating to the exemption from ad valorem taxation of intangible personal property.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-25",
+   "l": "2025-05-24",
+   "la": "Effective on 1/1/26",
+   "sm": false
+  },
+  {
+   "b": "HB 27",
+   "s": "89R",
+   "c": "Relating to courses in personal financial literacy for high school students in public schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-27",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 33",
+   "s": "89R",
+   "c": "Relating to active shooter incidents at primary and secondary school facilities and other emergencies.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-03",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 100",
+   "s": "89R",
+   "c": "Relating to the purchase, adoption, and use of instructional materials by public schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 103",
+   "s": "89R",
+   "c": "Relating to the creation and maintenance of a database of taxing unit bond, tax, and bond-related project information; providing a civil penalty.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "Medium",
+   "st": "became_law",
+   "f": "2025-03-14",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "HB 120",
+   "s": "89R",
+   "c": "Relating to college, career, and military readiness in public schools, including career and technology education programs, the Financial Aid for Swift Transfer (FAST) program, and the Rural Pathway Excellence Partnership (R-PEP) program, funding for those programs under the Foundation School Program, and workforce reporting to support those programs, to the public school accountability system, and to the new instructional facility allotment and the permissible uses of funding under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "Accountability & Assessment",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-06-20",
+   "la": "See remarks for effective date",
+   "sm": false
+  },
+  {
+   "b": "HB 121",
+   "s": "89R",
+   "c": "Relating to measures for ensuring public school safety, including the commissioning of peace officers by the Texas Education Agency, the composition of the board of directors of the Texas School Safety Center, and public school safety and security requirements and resources.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-13",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 210",
+   "s": "89R",
+   "c": "Relating to contracting with a school district or open-enrollment charter school by a vendor with whom a member of the board of trustees or governing body of the district or school or a related individual has certain business interests; creating a criminal offense.",
+   "a": [
+    "Governance & Local Control",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-05-29",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 247",
+   "s": "89R",
+   "c": "Relating to an exemption from ad valorem taxation of the amount of the appraised value of real property located in certain counties that arises from the installation or construction on the property of border security infrastructure and related improvements and to the consideration of the price paid by certain governmental entities for a parcel of or easement in real property purchased for the purpose of installing or constructing such infrastructure when appraising other real property.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "See remarks for effective date",
+   "sm": false
+  },
+  {
+   "b": "HB 367",
+   "s": "89R",
+   "c": "Relating to verification of excused absences from public school for students with severe or life-threatening illnesses.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 500",
+   "s": "89R",
+   "c": "Relating to making supplemental appropriations and reductions in appropriations and giving direction and adjustment authority regarding appropriations.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-14",
+   "l": "2025-06-22",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 549",
+   "s": "89R",
+   "c": "Relating to the availability and use of airway clearance devices at public school campuses and to contracts for medication for respiratory distress and training at public schools.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 762",
+   "s": "89R",
+   "c": "Relating to severance pay for political subdivision employees and independent contractors.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-22",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "HB 824",
+   "s": "89R",
+   "c": "Relating to the inclusion of civics instruction in public school government curriculum requirements for high school students.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 1178",
+   "s": "89R",
+   "c": "Relating to the creation of a temporary educator certificate for educators certified by other states.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 1188",
+   "s": "89R",
+   "c": "Relating to the provision of information regarding a local intellectual and developmental disability authority to the parents or guardians of certain special education students.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-05-29",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 1399",
+   "s": "89R",
+   "c": "Relating to an exemption from ad valorem taxation of tangible personal property consisting of animal feed held by the owner of the property for sale at retail.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-19",
+   "l": "2025-05-24",
+   "la": "See remarks for effective date",
+   "sm": false
+  },
+  {
+   "b": "HB 1458",
+   "s": "89R",
+   "c": "Relating to the armed security officers required to be present at public schools and the appointment of reserve police officers by a school district police department.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-22",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 1481",
+   "s": "89R",
+   "c": "Relating to school district and open-enrollment charter school policies regarding student use of personal communication devices.",
+   "a": [
+    "Governance & Local Control",
+    "Student Health & Discipline"
+   ],
+   "i": "High",
+   "st": "became_law",
+   "f": "2024-12-02",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 1522",
+   "s": "89R",
+   "c": "Relating to notice of a meeting held under the open meetings law.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-12-04",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 1586",
+   "s": "89R",
+   "c": "Relating to an exemption from required immunizations for school enrollment.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-12-11",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 1851",
+   "s": "89R",
+   "c": "Relating to the disposition of certain surplus motor vehicles and other law enforcement equipment by the Texas Facilities Commission to certain school districts.",
+   "a": [
+    "School Safety",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-01-15",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 2310",
+   "s": "89R",
+   "c": "Relating to developing a strategic plan for the improvement and expansion of early learning and educational opportunities for young children with disabilities.",
+   "a": [
+    "Curriculum & Instruction",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-01-31",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 2508",
+   "s": "89R",
+   "c": "Relating to an exemption from ad valorem taxation of the residence homestead of the surviving spouse of a veteran who died as a result of a qualifying condition or disease.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-05",
+   "l": "2025-06-20",
+   "la": "See remarks for effective date",
+   "sm": false
+  },
+  {
+   "b": "HB 2525",
+   "s": "89R",
+   "c": "Relating to the exemption from ad valorem taxation of certain property owned by a charitable organization that is engaged in providing housing and related facilities and services to persons who are at least 62 years of age.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-06",
+   "l": "2025-06-20",
+   "la": "Effective on 1/1/26",
+   "sm": false
+  },
+  {
+   "b": "HB 2598",
+   "s": "89R",
+   "c": "Relating to a school psychologist licensed under the Occupations Code.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-02-10",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "HB 2730",
+   "s": "89R",
+   "c": "Relating to the authority of the chief appraiser of an appraisal district to require a person allowed an exemption from ad valorem taxation of a residence homestead to file a new application or confirm the person's current qualification for the exemption.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-12",
+   "l": "2025-05-24",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 2757",
+   "s": "89R",
+   "c": "Relating to a public school policy for establishing age for purposes of admission into the school for certain children of foreign military members.",
+   "a": [
+    "Special Populations",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 3112",
+   "s": "89R",
+   "c": "Relating to the application of the open meetings law and public information law to government information related to certain cybersecurity measures.",
+   "a": [
+    "Governance & Local Control",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 3126",
+   "s": "89R",
+   "c": "Relating to the election of certain entities to participate in the uniform group coverage program for active school employees; imposing a fee.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "HB 3372",
+   "s": "89R",
+   "c": "Relating to prohibiting certain personal services performed by school district administrators; providing a civil penalty.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "High",
+   "st": "became_law",
+   "f": "2025-02-26",
+   "l": "2025-06-22",
+   "la": "Effective immediately",
+   "sm": true
+  },
+  {
+   "b": "HB 3512",
+   "s": "89R",
+   "c": "Relating to artificial intelligence training programs for certain employees and officials of state agencies and local governments.",
+   "a": [
+    "Educator Workforce",
+    "Operations & Business"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-02-28",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "HB 3526",
+   "s": "89R",
+   "c": "Relating to fiscal transparency for bonds issued by local governmental entities.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "Medium",
+   "st": "became_law",
+   "f": "2025-02-28",
+   "l": "2025-05-28",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "HB 3546",
+   "s": "89R",
+   "c": "Relating to the authority of an independent school district to change the date of the general election for officers.",
+   "a": [
+    "Bonds, Elections & Debt",
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-28",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 3629",
+   "s": "89R",
+   "c": "Relating to prohibiting a person required to register as a sex offender from serving as a member of the board of trustees of an independent school district.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-03",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 3711",
+   "s": "89R",
+   "c": "Relating to assistance in the investigation of certain open meetings offenses by the open records division of the attorney general's office.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-04",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 4214",
+   "s": "89R",
+   "c": "Relating to public access to the mailing address and electronic mail address designated by a governmental body to receive a request for public information under the public information law.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-10",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 4219",
+   "s": "89R",
+   "c": "Relating to a governmental body's response to a request for public information.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-10",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 4236",
+   "s": "89R",
+   "c": "Relating to the creation of a study group to evaluate the school district property value study conducted by the comptroller of public accounts.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-10",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 4310",
+   "s": "89R",
+   "c": "Relating to a special right of access under the public information law for a member of a governing board.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-11",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 4623",
+   "s": "89R",
+   "c": "Relating to liability of public schools and professional school employees for sexual misconduct involving students.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-12",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HB 4687",
+   "s": "89R",
+   "c": "Relating to the applicability of certain immunity and liability laws to certain charter school campuses or programs.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-03-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": true
+  },
+  {
+   "b": "HB 5331",
+   "s": "89R",
+   "c": "Relating to the enforceability of certain state agency and local government contract language regarding required security incident notifications.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-14",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "HB 5515",
+   "s": "89R",
+   "c": "Relating to restrictions on freight and shipping costs included in the price of instructional materials for public schools.",
+   "a": [
+    "Curriculum & Instruction",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-14",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "HJR 1",
+   "s": "89R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to exempt from ad valorem taxation a portion of the market value of tangible personal property a person owns that is held or used for the production of income.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-24",
+   "l": "2025-05-20",
+   "la": "Filed with the Secretary of State",
+   "sm": false
+  },
+  {
+   "b": "HJR 34",
+   "s": "89R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to provide for an exemption from ad valorem taxation of the amount of the market value of real property located in a county that borders the United Mexican States that arises from the installation or construction on the property of border security infrastructure and related improvements.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-05-23",
+   "la": "Filed with the Secretary of State",
+   "sm": false
+  },
+  {
+   "b": "HJR 99",
+   "s": "89R",
+   "c": "Proposing a constitutional amendment authorizing the legislature to exempt from ad valorem taxation tangible personal property consisting of animal feed held by the owner of the property for sale at retail.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-19",
+   "l": "2025-05-13",
+   "la": "Filed with the Secretary of State",
+   "sm": false
+  },
+  {
+   "b": "HJR 133",
+   "s": "89R",
+   "c": "Proposing a constitutional amendment authorizing the legislature to provide for an exemption from ad valorem taxation of all or part of the market value of the residence homestead of the surviving spouse of a veteran who died as a result of a condition or disease that is presumed under federal law to have been service-connected.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-05",
+   "l": "2025-05-28",
+   "la": "Filed with the Secretary of State",
+   "sm": false
+  },
+  {
+   "b": "SB 1",
+   "s": "89R",
+   "c": "General Appropriations Bill.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-01-22",
+   "l": "2025-06-22",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 2",
+   "s": "89R",
+   "c": "Relating to the establishment of an education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "High",
+   "st": "became_law",
+   "f": "2025-01-24",
+   "l": "2025-05-03",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SB 4",
+   "s": "89R",
+   "c": "Relating to an increase in the amount of the exemption of residence homesteads from ad valorem taxation by a school district and the protection of school districts against certain losses in local revenue.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-06",
+   "l": "2025-06-16",
+   "la": "See remarks for effective date",
+   "sm": false
+  },
+  {
+   "b": "SB 8",
+   "s": "892",
+   "c": "Relating to the designation and use of certain spaces and facilities according to sex; authorizing a civil penalty and a private civil right of action.",
+   "a": [
+    "Student Health & Discipline",
+    "Operations & Business"
+   ],
+   "i": "Medium",
+   "st": "became_law",
+   "f": "2025-08-15",
+   "l": "2025-09-22",
+   "la": "Effective on . . . . . . . . . . . . . . .",
+   "sm": true
+  },
+  {
+   "b": "SB 10",
+   "s": "89R",
+   "c": "Relating to the display of the Ten Commandments in public school classrooms.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-10",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 11",
+   "s": "89R",
+   "c": "Relating to a period of prayer and reading of the Bible or other religious text in public schools.",
+   "a": [
+    "Governance & Local Control",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-10",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 12",
+   "s": "89R",
+   "c": "Relating to parental rights in public education, to certain public school requirements and prohibitions regarding instruction, diversity, equity, and inclusion duties, and social transitioning, and to student clubs at public schools.",
+   "a": [
+    "Governance & Local Control",
+    "Curriculum & Instruction",
+    "Student Health & Discipline"
+   ],
+   "i": "High",
+   "st": "became_law",
+   "f": "2025-02-24",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SB 13",
+   "s": "89R",
+   "c": "Relating to a school district's library materials and catalog, the establishment of local school library advisory councils, and parental rights regarding public school library catalogs and access by the parent's child to library materials.",
+   "a": [
+    "Governance & Local Control",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-12",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 23",
+   "s": "89R",
+   "c": "Relating to an increase in the amount of the exemption from ad valorem taxation by a school district of the appraised value of the residence homestead of a person who is elderly or disabled and the protection of school districts against certain losses in local revenue.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-04-15",
+   "l": "2025-06-16",
+   "la": "See remarks for effective date",
+   "sm": false
+  },
+  {
+   "b": "SB 24",
+   "s": "89R",
+   "c": "Relating to the inclusion of an understanding of communist regimes and ideologies in the essential knowledge and skills for the social studies curriculum for certain public school students.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-05",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 25",
+   "s": "89R",
+   "c": "Relating to health and nutrition standards to promote healthy living, including requirements for food labeling, primary and secondary education, higher education, and continuing education for certain health care professionals; authorizing a civil penalty.",
+   "a": [
+    "Curriculum & Instruction",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-06-22",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SB 57",
+   "s": "89R",
+   "c": "Relating to provisions and plans by public schools to ensure the safety of individuals with disabilities or impairments during a mandatory school drill or a disaster or emergency situation.",
+   "a": [
+    "Special Populations",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 204",
+   "s": "89R",
+   "c": "Relating to a handbook on parental rights in education and training requirements on parental rights in education for a member of the board of trustees of a school district.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 207",
+   "s": "89R",
+   "c": "Relating to excused absences from public school for certain students to attend mental health care appointments.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-05-30",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 226",
+   "s": "89R",
+   "c": "Relating to establishing residency for children who are the subject of parental child safety placement agreements for purposes of admission into public schools.",
+   "a": [
+    "Special Populations",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 260",
+   "s": "89R",
+   "c": "Relating to the school safety allotment under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 314",
+   "s": "89R",
+   "c": "Relating to prohibiting certain food additives from being included in free or reduced-price meals provided by school districts.",
+   "a": [
+    "Student Health & Discipline",
+    "Operations & Business"
+   ],
+   "i": "Medium",
+   "st": "became_law",
+   "f": "2024-11-12",
+   "l": "2025-05-27",
+   "la": "Effective immediately",
+   "sm": true
+  },
+  {
+   "b": "SB 326",
+   "s": "89R",
+   "c": "Relating to the procedure for determining whether a student's violation of a public school's or public institution of higher education's student code of conduct was motivated by antisemitism.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2024-11-13",
+   "l": "2025-05-20",
+   "la": "Effective immediately",
+   "sm": true
+  },
+  {
+   "b": "SB 401",
+   "s": "89R",
+   "c": "Relating to participation by non-enrolled students in University Interscholastic League-sponsored activities.",
+   "a": [
+    "Student Health & Discipline",
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-21",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 413",
+   "s": "89R",
+   "c": "Relating to the meetings of the boards of trustees of independent school districts.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-11-21",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 546",
+   "s": "89R",
+   "c": "Relating to seat belts on buses that transport children.",
+   "a": [
+    "School Safety",
+    "Operations & Business"
+   ],
+   "i": "High",
+   "st": "became_law",
+   "f": "2024-12-06",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SB 568",
+   "s": "89R",
+   "c": "Relating to special education in public schools, including funding for special education under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-12-12",
+   "l": "2025-06-20",
+   "la": "See remarks for effective date",
+   "sm": false
+  },
+  {
+   "b": "SB 569",
+   "s": "89R",
+   "c": "Relating to the provision of virtual education in public schools and to certain waivers and modifications by the commissioner of education to the method of calculating average daily attendance in an emergency or crisis for purposes of preserving school district funding entitlements under the Foundation School Program during that emergency or crisis; authorizing a fee.",
+   "a": [
+    "School Finance",
+    "Curriculum & Instruction",
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2024-12-12",
+   "l": "2025-05-06",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 571",
+   "s": "89R",
+   "c": "Relating to the reporting and investigation of certain misconduct and child abuse and neglect; creating a criminal offense.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "High",
+   "st": "became_law",
+   "f": "2024-12-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": true
+  },
+  {
+   "b": "SB 843",
+   "s": "89R",
+   "c": "Relating to a Texas Education Agency database of school district and open-enrollment charter school bonds, taxes, and bond-related projects.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "Medium",
+   "st": "became_law",
+   "f": "2025-01-17",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SB 865",
+   "s": "89R",
+   "c": "Relating to instruction in cardiopulmonary resuscitation and the use of automated external defibrillators and to a cardiac emergency response plan for certain school employees and volunteers.",
+   "a": [
+    "Student Health & Discipline",
+    "School Safety"
+   ],
+   "i": "Medium",
+   "st": "became_law",
+   "f": "2025-01-22",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": true
+  },
+  {
+   "b": "SB 870",
+   "s": "89R",
+   "c": "Relating to the open carrying of a handgun by a uniformed school marshal.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-01-22",
+   "l": "2025-05-19",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 920",
+   "s": "89R",
+   "c": "Relating to the administration of nonprescription medications to certain public and private school students.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-01-24",
+   "l": "2025-05-30",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 965",
+   "s": "89R",
+   "c": "Relating to the right of a public school employee to engage in religious speech or prayer while on duty.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-01-29",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SB 991",
+   "s": "89R",
+   "c": "Relating to the inclusion of chronically absent and truant students as students at risk of dropping out of school and the collection and reporting of data regarding those students.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-01-29",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 1049",
+   "s": "89R",
+   "c": "Relating to excused absences from public school for the purpose of attending a released time course.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-03",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 1062",
+   "s": "89R",
+   "c": "Relating to the type of newspaper required for publication of public notices.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-03",
+   "l": "2025-05-19",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 1173",
+   "s": "89R",
+   "c": "Relating to the amount of an expenditure made by certain political subdivisions for which a competitive procurement method may be required.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-07",
+   "l": "2025-05-29",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 1191",
+   "s": "89R",
+   "c": "Relating to the development of a standard method of computing a student's high school grade point average.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-10",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 1207",
+   "s": "89R",
+   "c": "Relating to instruction on adoption in the parenting and paternity awareness program in public schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-10",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 1418",
+   "s": "89R",
+   "c": "Relating to the terminology used to refer to certain assessment instruments administered to public school students.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-02-19",
+   "l": "2025-05-24",
+   "la": "Effective immediately",
+   "sm": true
+  },
+  {
+   "b": "SB 1453",
+   "s": "89R",
+   "c": "Relating to the current debt rate and tax rate of a taxing unit for ad valorem tax purposes.",
+   "a": [
+    "Property Taxes",
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-19",
+   "l": "2025-06-20",
+   "la": "Effective on 1/1/26",
+   "sm": false
+  },
+  {
+   "b": "SB 1490",
+   "s": "89R",
+   "c": "Relating to adult high school charter program funding.",
+   "a": [
+    "School Finance",
+    "School Choice & Charters"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-05-24",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SB 1494",
+   "s": "89R",
+   "c": "Relating to the authority of certain political subdivisions to change the date of their general elections.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 1502",
+   "s": "89R",
+   "c": "Relating to the authority of the governing body of a school district to adopt an ad valorem tax rate that exceeds the district's voter-approval tax rate.",
+   "a": [
+    "Property Taxes",
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-20",
+   "l": "2025-05-24",
+   "la": "Effective on 1/1/26",
+   "sm": false
+  },
+  {
+   "b": "SB 1619",
+   "s": "89R",
+   "c": "Relating to the use of an epinephrine delivery system by certain entities.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-25",
+   "l": "2025-05-19",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 1621",
+   "s": "89R",
+   "c": "Relating to prosecution and punishment of certain criminal offenses prohibiting sexually explicit visual material involving depictions of children, computer-generated children, or other persons; creating criminal offenses; increasing criminal penalties.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-02-25",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SB 1952",
+   "s": "89R",
+   "c": "Relating to the administration and operation of the school health and related services program.",
+   "a": [
+    "Special Populations",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-05",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 2185",
+   "s": "89R",
+   "c": "Relating to the bilingual education allotment under the public school finance system.",
+   "a": [
+    "School Finance",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-10",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 2237",
+   "s": "89R",
+   "c": "Relating to severance pay for certain political subdivision employees.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-11",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": false
+  },
+  {
+   "b": "SB 2398",
+   "s": "89R",
+   "c": "Relating to certain policies and procedures related to concussions or other brain injuries sustained by public school students.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-12",
+   "l": "2025-06-20",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 2520",
+   "s": "89R",
+   "c": "Relating to the calculation of the limitation on the total amount of ad valorem taxes imposed by a school district on the residence homestead of an individual who is elderly or disabled.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-13",
+   "l": "2025-06-20",
+   "la": "Effective on 1/1/26",
+   "sm": false
+  },
+  {
+   "b": "SB 2929",
+   "s": "89R",
+   "c": "Relating to the removal of a spectator of certain school extracurricular athletic activities or competitions.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-03-14",
+   "l": "2025-05-27",
+   "la": "Effective immediately",
+   "sm": false
+  },
+  {
+   "b": "SB 2986",
+   "s": "89R",
+   "c": "Relating to use by a religious organization of public school or institution of higher education facilities.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "Low",
+   "st": "became_law",
+   "f": "2025-03-14",
+   "l": "2025-06-20",
+   "la": "Effective on 9/1/25",
+   "sm": true
+  },
+  {
+   "b": "SJR 2",
+   "s": "89R",
+   "c": "Proposing a constitutional amendment to increase the amount of the exemption of residence homesteads from ad valorem taxation by a school district.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-02-06",
+   "l": "2025-05-22",
+   "la": "Filed with the Secretary of State",
+   "sm": false
+  },
+  {
+   "b": "SJR 34",
+   "s": "89R",
+   "c": "Proposing a constitutional amendment affirming the rights and responsibilities of parents.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-01-13",
+   "l": "2025-05-21",
+   "la": "Filed with the Secretary of State",
+   "sm": false
+  },
+  {
+   "b": "SJR 85",
+   "s": "89R",
+   "c": "Proposing a constitutional amendment authorizing the legislature to increase the amount of the exemption from ad valorem taxation by a school district of the market value of the residence homestead of a person who is elderly or disabled.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "became_law",
+   "f": "2025-04-14",
+   "l": "2025-05-22",
+   "la": "Filed with the Secretary of State",
+   "sm": false
+  }
+ ]
+}
