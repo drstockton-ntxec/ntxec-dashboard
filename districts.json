@@ -40,5 +40,23 @@
       "body": "Lato"
     },
     "showName": false
+  },
+  "denton": {
+    "name": "Denton ISD",
+    "cobrand": true,
+    "logo": "logos/denton.png",
+    "logoHeight": 72,
+    "website": "https://www.dentonisd.org",
+    "colors": {
+      "primary": "#0068B2",
+      "dark": "#00089C",
+      "highlight": "#0068B2",
+      "label": "#97D700"
+    },
+    "fonts": {
+      "display": "Jost",
+      "displayWeights": "500;600;700;800",
+      "body": "Inter"
+    }
   }
 }
