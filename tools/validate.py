@@ -90,6 +90,17 @@ def main():
             r = contrast(c[k], "#FFFFFF")
             if r < 4.5:
                 errors.append(f"{code}: '{k}' {c[k]} has {r:.2f}:1 contrast on white (needs 4.5)")
+        # "High" impact uses dark and "Medium" uses medium (or primary): they must look clearly different,
+        # and the medium color must stand out from white as a chart mark (3:1)
+        med = c.get("medium", c["primary"])
+        if med != c["primary"] and not HEX.match(str(med)):
+            errors.append(f"{code}: color 'medium' must be a #RRGGBB value")
+        else:
+            dist = sum((int(med[i:i + 2], 16) - int(c["dark"][i:i + 2], 16)) ** 2 for i in (1, 3, 5)) ** 0.5
+            if dist < 60:
+                errors.append(f"{code}: Medium impact color {med} is too close to 'dark' {c['dark']}; set colors.medium")
+            if contrast(med, "#FFFFFF") < 3:
+                errors.append(f"{code}: Medium impact color {med} needs 3:1 contrast on white")
         # highlight is used for the large headline text: 3:1
         r = contrast(c["highlight"], "#FFFFFF")
         if r < 3:

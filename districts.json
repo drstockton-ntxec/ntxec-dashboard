@@ -19,7 +19,8 @@
       "primary": "#0C2577",
       "dark": "#081A53",
       "highlight": "#A18D50",
-      "label": "#C0A56B"
+      "label": "#C0A56B",
+      "medium": "#A18D50"
     }
   },
   "plano": {
@@ -57,6 +58,25 @@
       "display": "Jost",
       "displayWeights": "500;600;700;800",
       "body": "Inter"
+    }
+  },
+  "dallas": {
+    "name": "Dallas ISD",
+    "cobrand": true,
+    "logo": "logos/dallas.png",
+    "logoHeight": 56,
+    "showName": false,
+    "website": "https://www.dallasisd.org",
+    "colors": {
+      "primary": "#645C85",
+      "dark": "#211650",
+      "highlight": "#645C85",
+      "label": "#C3C5CC"
+    },
+    "fonts": {
+      "display": "Josefin Sans",
+      "displayWeights": "400;600;700",
+      "body": "Poppins"
     }
   }
 }

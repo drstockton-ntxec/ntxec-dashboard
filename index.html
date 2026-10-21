@@ -22,7 +22,7 @@ img{max-width:100%}
   --blue-tint:color-mix(in srgb,var(--brand-primary) 46%,#FFFFFF); /* tint of the brand primary for the lowest impact step */
   --bg:var(--surface); --ink:var(--brand-dark); --ink-2:var(--slate); --muted:var(--mist-gray); --line:var(--rule-gray);
   --accent:var(--brand-primary); --accent-ink:var(--brand-dark); --accent-soft:var(--panel-tint);
-  --imp-high:var(--brand-dark); --imp-med:var(--brand-primary); --imp-low:var(--blue-tint); --imp-none:var(--rule-gray);
+  --imp-high:var(--brand-dark); --imp-med:var(--brand-medium,var(--brand-primary)); --imp-low:var(--blue-tint); --imp-none:var(--rule-gray);
   --f-display:"Montserrat",Arial,sans-serif;
   --f-body:"Lato",Arial,Helvetica,sans-serif;
   --f-mono:"Lato",Arial,Helvetica,sans-serif;
@@ -174,6 +174,7 @@ function applyBrand(D){
   if(c.dark)root.setProperty("--brand-dark",c.dark);
   if(c.highlight)root.setProperty("--brand-highlight",c.highlight);
   if(c.label)root.setProperty("--brand-label",c.label);
+  if(c.medium)root.setProperty("--brand-medium",c.medium);
   const f=D.fonts||{}, fam=(n,w)=>`family=${n.trim().replace(/ /g,"+")}:wght@${w}`, load=[];
   if(f.display){load.push(fam(f.display,f.displayWeights||"600;700;800"));root.setProperty("--f-display",`"${f.display}",Arial,sans-serif`)}
   if(f.body&&f.body!=="Lato"){load.push(fam(f.body,"400;700"))}
@@ -289,12 +290,14 @@ hbar("c-stage",stageCounts,{labelW:210});
     const v=bills.filter(b=>(b.i||"")===lev).length;parts.push([lev,v,tok]);if(!v)return;
     const w=(x1-x0)*v/total;
     const r=el("rect",{x:x,y:0,width:Math.max(0,w-2),height:40,rx:0,fill:`var(${tok})`},svg);
-    if(w>36){const t=el("text",{class:"val",x:x+8,y:25},svg);t.textContent=v;t.setAttribute("style",`fill:var(${lev==="High"||lev==="Medium"?"--on-dark":"--ntxec-navy"})`)}
+    if(w>36){const t=el("text",{class:"val",x:x+8,y:25},svg);t.textContent=v;t.dataset.onFill="1"}
     bindTip(r,`<b>${impLabel(lev)}</b><br>${v} bills (${Math.round(100*v/total)}%)`);
     x+=w;
   });
   svg.setAttribute("aria-label",parts.map(p=>`${impLabel(p[0])}: ${p[1]}`).join("; "));
   const box=document.getElementById("c-impact");box.appendChild(svg);
+  const lum=c=>{const f=c.startsWith("color(")?1:255;const v=(c.replace(/^color\(srgb/,"").match(/[\d.]+/g)||[0,0,0]).slice(0,3).map(n=>{n/=f;return n<=.03928?n/12.92:((n+.055)/1.055)**2.4});return .2126*v[0]+.7152*v[1]+.0722*v[2]};
+  svg.querySelectorAll("text[data-on-fill]").forEach(t=>{const r=t.previousElementSibling;const L=lum(getComputedStyle(r).fill);t.setAttribute("style",`fill:var(${1.05/(L+.05)>=(L+.05)/.05?"--on-dark":"--brand-dark"})`)});
   const lg=document.createElement("div");lg.className="legend";
   lg.innerHTML=parts.map(([lev,v,tok])=>`<span><i style="background:var(${tok})"></i>${impLabel(lev)} <b>${v}</b></span>`).join("");
   box.appendChild(lg);
