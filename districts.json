@@ -78,5 +78,23 @@
       "displayWeights": "400;600;700",
       "body": "Poppins"
     }
+  },
+  "richardson": {
+    "name": "Richardson ISD",
+    "cobrand": true,
+    "logo": "logos/richardson.svg",
+    "logoHeight": 72,
+    "website": "https://www.risd.org",
+    "colors": {
+      "primary": "#005596",
+      "dark": "#1B3668",
+      "highlight": "#C41230",
+      "label": "#DEDDDE"
+    },
+    "fonts": {
+      "display": "Poppins",
+      "displayWeights": "600;700;800",
+      "body": "Poppins"
+    }
   }
 }
