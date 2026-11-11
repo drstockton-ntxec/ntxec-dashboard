@@ -307,11 +307,12 @@ hbar("c-stage",stageCounts,{labelW:210});
 /* docket table */
 const sel=document.getElementById("f-area");AREAS.forEach(a=>{const o=document.createElement("option");o.textContent=a;sel.appendChild(o)});
 const tloSess=s=>s.replace(/R$/,"R");
-/* Set PORTAL_BILL_URL to the public portal's bill page pattern once the 90th portal is public.
-   Placeholders: {type} (HB), {number} (2), {session} (90R). Until set, links open Texas Legislature Online. */
-const PORTAL_BILL_URL="";
+/* Bill links open the bill in NTXEC's public USLege portal ("90th Legislative Session Education Bills").
+   Placeholders: {id} (USLege bill id), {type} (HB), {number} (2), {session} (90R).
+   The 89th session preview, bills without an id, or an empty PORTAL_BILL_URL fall back to Texas Legislature Online. */
+const PORTAL_BILL_URL="https://app.uslege.ai/portal/dea036ca-14a2-4d2b-bb74-65236f367b99?overlayBillId={id}";
 const tlo=b=>{const [t,n]=b.b.split(" ");return `https://capitol.texas.gov/BillLookup/History.aspx?LegSess=${encodeURIComponent(b.s)}&Bill=${t}${n}`};
-const billLink=b=>{if(!PORTAL_BILL_URL)return tlo(b);const [t,n]=b.b.split(" ");return PORTAL_BILL_URL.replace("{type}",t).replace("{number}",n).replace("{session}",b.s)};
+const billLink=b=>{if(!PORTAL_BILL_URL||DATA.preview||(PORTAL_BILL_URL.includes("{id}")&&!b.id))return tlo(b);const [t,n]=b.b.split(" ");return PORTAL_BILL_URL.replace("{id}",encodeURIComponent(b.id)).replace("{type}",t).replace("{number}",n).replace("{session}",b.s)};
 const sessName=s=>s.endsWith("R")?"Regular session":s.endsWith("1")?"1st called session":s.endsWith("2")?"2nd called session":"Called session";
 const impTok=i=>(IMPACTS.find(x=>x[0]===(i||""))||IMPACTS[3])[1];
 let shown=25;

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "preview": false,
  "bills": [
   {
@@ -38,7 +38,8 @@
    "s": "90R",
    "c": "Relating to retirement benefits for certain law enforcement officers who are members of the Teacher Retirement System of Texas, including the creation of a supplemental retirement program.",
    "a": [
-    "Educator Workforce"
+    "Educator Workforce",
+    "School Safety"
    ],
    "i": "",
    "st": "introduced",
@@ -93,12 +94,1272 @@
    "sm": false
   },
   {
+   "id": 4074477,
+   "b": "HB 133",
+   "s": "90R",
+   "c": "Relating to a notification requirement if certain public schools do not have a nurse assigned to the school during all instructional hours.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074480,
+   "b": "HB 136",
+   "s": "90R",
+   "c": "Relating to the establishment of the teachers' classroom supply savings account program.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074491,
+   "b": "HB 137",
+   "s": "90R",
+   "c": "Relating to employment practices of governmental entities, state and local contractors, and private employers in this state regarding the legal status of employees, including requiring participation in the federal electronic verification of employment authorization program, or E-verify program, and authorizing the suspension of certain licenses held by private employers for certain conduct in relation to the employment of persons not lawfully present.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074493,
+   "b": "HB 140",
+   "s": "90R",
+   "c": "Relating to the applicability of sex offender registration requirements to the offense of improper relationship between educator and student.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074495,
+   "b": "HB 142",
+   "s": "90R",
+   "c": "Relating to the dissemination of certain school district ad valorem tax-related information.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074496,
+   "b": "HB 143",
+   "s": "90R",
+   "c": "Relating to the improper relationship between educator and student, including the statute of limitations for and the applicability of sex offender registration requirements to the offense, the rights and protection of victims of the offense, and the punishment of certain acts committed in furtherance of the offense.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074497,
+   "b": "HB 144",
+   "s": "90R",
+   "c": "Relating to a study of alternative methods of taxation to replace revenue lost to political subdivisions if ad valorem taxes are abolished.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074504,
+   "b": "HB 152",
+   "s": "90R",
+   "c": "Relating to the establishment of a grant program for school district or open-enrollment charter school campuses that are designated as full-service community schools.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074512,
+   "b": "HB 155",
+   "s": "90R",
+   "c": "Relating to cost-of-living increases applicable to certain benefits paid by the Teacher Retirement System of Texas.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074521,
+   "b": "HB 164",
+   "s": "90R",
+   "c": "Relating to the repeal of the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074526,
+   "b": "HB 169",
+   "s": "90R",
+   "c": "Relating to participation of political subdivisions and contractors and subcontractors of political subdivisions in the federal electronic verification of employment authorization program, or E-verify.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074528,
+   "b": "HB 172",
+   "s": "90R",
+   "c": "Relating to the provision of menstrual products at public schools.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074547,
+   "b": "HB 178",
+   "s": "90R",
+   "c": "Relating to the basic allotment and guaranteed yield under the Foundation School Program, including an adjustment in those amounts to reflect inflation.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074554,
+   "b": "HB 186",
+   "s": "90R",
+   "c": "Relating to the criminal consequences for the offense of improper relationship between educator and student, including increasing the minimum term of imprisonment, changing eligibility for deferred adjudication community supervision, mandatory supervision, and parole, and requiring sex offender registration for that offense.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074563,
+   "b": "HB 193",
+   "s": "90R",
+   "c": "Relating to measures to support students against whom certain alleged incidents of misconduct by an educational entity or private school employee or service provider were committed.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074570,
+   "b": "HB 201",
+   "s": "90R",
+   "c": "Relating to the authority of the board of trustees of certain small school districts to decrease the number of trustees on the board.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074571,
+   "b": "HB 202",
+   "s": "90R",
+   "c": "Relating to the removal of a public school student from the classroom for engaging in certain conduct that constitutes assault or harassment against a school district employee.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074575,
+   "b": "HB 206",
+   "s": "90R",
+   "c": "Relating to the creation of a lottery game to benefit animal welfare programs.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074576,
+   "b": "HB 207",
+   "s": "90R",
+   "c": "Relating to the calculation of certain ad valorem tax rates of a taxing unit and the manner in which a proposed ad valorem tax rate that exceeds the voter-approval tax rate is approved; making conforming changes.",
+   "a": [
+    "Property Taxes",
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074579,
+   "b": "HB 210",
+   "s": "90R",
+   "c": "Relating to the removal of a conservator, board of managers, or other alternative management of a campus or school district in certain circumstances.",
+   "a": [
+    "Governance & Local Control",
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074586,
+   "b": "HB 217",
+   "s": "90R",
+   "c": "Relating to the failure to report child abuse or neglect; increasing a criminal penalty.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074604,
+   "b": "HB 227",
+   "s": "90R",
+   "c": "Relating to requiring a school district or open-enrollment charter school to report data regarding certain disciplinary or law enforcement actions taken against students.",
+   "a": [
+    "Student Health & Discipline",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074615,
+   "b": "HB 238",
+   "s": "90R",
+   "c": "Relating to increasing the threshold of voter approval for a school district bond election.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074624,
+   "b": "HB 247",
+   "s": "90R",
+   "c": "Relating to cost-of-living adjustments applicable to certain benefits paid by the Teacher Retirement System of Texas and a biennial study on providing additional cost-of-living adjustments based on the effects of increased inflation.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074645,
+   "b": "HB 259",
+   "s": "90R",
+   "c": "Relating to the publication of annual financial statements by public schools.",
+   "a": [
+    "School Finance",
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074653,
+   "b": "HB 267",
+   "s": "90R",
+   "c": "Relating to public school bilingual education programs, dual language immersion programs, and special language programs.",
+   "a": [
+    "Curriculum & Instruction",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074654,
+   "b": "HB 268",
+   "s": "90R",
+   "c": "Relating to digital citizenship instruction in public schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074661,
+   "b": "HB 275",
+   "s": "90R",
+   "c": "Relating to providing for an election by the parent of a student who was subjected to sexual grooming at a public school to transfer the student to another public school campus or receive funding for the student to attend private school.",
+   "a": [
+    "Student Health & Discipline",
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074667,
+   "b": "HB 281",
+   "s": "90R",
+   "c": "Relating to the regulation of residential treatment centers, including requirements related to public education for certain children who reside in residential treatment centers; creating a criminal offense.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074683,
+   "b": "HB 287",
+   "s": "90R",
+   "c": "Relating to policies and procedures regarding certain public school students with disabilities.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074684,
+   "b": "HB 288",
+   "s": "90R",
+   "c": "Relating to the transfer of public school students who are children of certain public servants.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074688,
+   "b": "HB 292",
+   "s": "90R",
+   "c": "Relating to the creation of a Texas Commission on Assessment and Accountability.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074709,
+   "b": "HB 314",
+   "s": "90R",
+   "c": "Relating to a determination of a school district's assets to liabilities ratio under the public school financial accountability rating system.",
+   "a": [
+    "Accountability & Assessment",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074713,
+   "b": "HB 318",
+   "s": "90R",
+   "c": "Relating to the defense of a school district by the attorney general in certain causes of action arising out of the expulsion of a student.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074715,
+   "b": "HB 320",
+   "s": "90R",
+   "c": "Relating to required reporting regarding a school district's school counseling program.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074717,
+   "b": "HB 322",
+   "s": "90R",
+   "c": "Relating to the collection of delinquent ad valorem taxes.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074719,
+   "b": "HB 324",
+   "s": "90R",
+   "c": "Relating to eligibility requirements for private schools to participate in the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074726,
+   "b": "HB 332",
+   "s": "90R",
+   "c": "Relating to the allocation and deposit of certain surplus state revenue to the property tax relief fund for use in reducing school district maintenance and operations ad valorem taxes.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074741,
+   "b": "HB 333",
+   "s": "90R",
+   "c": "Relating to methods to improve health profession-related career and technology education and dual credit programs offered by public schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074742,
+   "b": "HB 334",
+   "s": "90R",
+   "c": "Relating to the establishment of an intensive workforce readiness adult education pilot program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074747,
+   "b": "HB 339",
+   "s": "90R",
+   "c": "Relating to the training requirements for public school educators regarding behavioral interventions and supports.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074749,
+   "b": "HB 341",
+   "s": "90R",
+   "c": "Relating to the investment of public funds by a local government in investment pools.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074751,
+   "b": "HB 343",
+   "s": "90R",
+   "c": "Relating to the applicability of certain requirements relating to grievances to school districts of innovation.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074756,
+   "b": "HB 348",
+   "s": "90R",
+   "c": "Relating to including fetal development instruction as part of the required health curriculum for public school students in certain grade levels.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074761,
+   "b": "HB 353",
+   "s": "90R",
+   "c": "Relating to the uniform election date.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074768,
+   "b": "HB 360",
+   "s": "90R",
+   "c": "Relating to providing free full-day prekindergarten for certain children.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074769,
+   "b": "HB 361",
+   "s": "90R",
+   "c": "Relating to funding for special education under the Foundation School Program for the 2026-2027 and 2027-2028 school years.",
+   "a": [
+    "School Finance",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074777,
+   "b": "HB 371",
+   "s": "90R",
+   "c": "Relating to the adoption of two budgets by a political subdivision that adopts an ad valorem tax rate that exceeds the political subdivision's voter-approval tax rate.",
+   "a": [
+    "Property Taxes",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074783,
+   "b": "HB 372",
+   "s": "90R",
+   "c": "Relating to the collection of delinquent ad valorem taxes.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074779,
+   "b": "HB 374",
+   "s": "90R",
+   "c": "Relating to certain requirements applicable to governmental entities with respect to an agreement prohibiting the release of information regarding a data center project; providing a civil penalty.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074785,
+   "b": "HB 376",
+   "s": "90R",
+   "c": "Relating to the use of average enrollment for purposes of the public school finance system.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074792,
+   "b": "HB 383",
+   "s": "90R",
+   "c": "Relating to prohibiting school districts from providing student instruction on Veterans Day.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074803,
+   "b": "HB 394",
+   "s": "90R",
+   "c": "Relating to the scheduling of the first day of school for students by school districts.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074808,
+   "b": "HB 399",
+   "s": "90R",
+   "c": "Relating to liability of a public school for a homicide causing the death of a student that occurs on the school campus.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074809,
+   "b": "HB 401",
+   "s": "90R",
+   "c": "Relating to a halal food option for breakfast and lunch programs provided by public schools.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074812,
+   "b": "HB 404",
+   "s": "90R",
+   "c": "Relating to cost-of-living increases applicable to certain benefits paid by the Teacher Retirement System of Texas.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074817,
+   "b": "HB 409",
+   "s": "90R",
+   "c": "Relating to the use of personal leave during school holidays by certain school district employees.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074827,
+   "b": "HB 419",
+   "s": "90R",
+   "c": "Relating to requiring fine arts as part of the foundation curriculum for public schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074831,
+   "b": "HB 423",
+   "s": "90R",
+   "c": "Relating to the publication of required notice by a political subdivision by alternative media.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074840,
+   "b": "HB 426",
+   "s": "90R",
+   "c": "Relating to a halal food option for breakfast and lunch programs provided by certain public schools.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074838,
+   "b": "HB 432",
+   "s": "90R",
+   "c": "Relating to procedures for the closure of a school district campus or consolidation of a school district campus with another district campus by the district's board of trustees.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4074849,
    "b": "HB 441",
    "s": "90R",
    "c": "Relating to public school instruction and courses in artificial intelligence system usage.",
    "a": [
     "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074851,
+   "b": "HB 443",
+   "s": "90R",
+   "c": "Relating to the creation of an extracurricular community education grant program.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074853,
+   "b": "HB 445",
+   "s": "90R",
+   "c": "Relating to creating the criminal offense of trespass on or near school or day-care center property.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074863,
+   "b": "HB 455",
+   "s": "90R",
+   "c": "Relating to the permissible uses of the school safety allotment under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074865,
+   "b": "HB 457",
+   "s": "90R",
+   "c": "Relating to limitations on increases in the appraised value of certain property for ad valorem tax purposes.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074869,
+   "b": "HB 461",
+   "s": "90R",
+   "c": "Relating to a sick leave pool for public school employees.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074872,
+   "b": "HB 464",
+   "s": "90R",
+   "c": "Relating to the use of revenue in the tax increment fund for certain tax increment financing reinvestment zones for the acquisition, construction, or reconstruction of an educational facility.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074882,
+   "b": "HB 475",
+   "s": "90R",
+   "c": "Relating to the inspection of residential and day placement facilities for special education students.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074910,
+   "b": "HB 492",
+   "s": "90R",
+   "c": "Relating to electronic devices in public schools, including standards for electronic devices and software applications used by a public school and a prohibition on a school district issuing bonds for the purchase of electronic devices to be provided or transferred to a student.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074924,
+   "b": "HB 507",
+   "s": "90R",
+   "c": "Relating to drug testing and prescription drug policies for employees and independent contractors of state agencies and political subdivisions regarding the medical use of low-THC cannabis and hemp.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074935,
+   "b": "HB 518",
+   "s": "90R",
+   "c": "Relating to prohibiting certain additives from being included in meals offered for sale by public schools.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074966,
+   "b": "HB 536",
+   "s": "90R",
+   "c": "Relating to emergency cardiovascular care at public schools and certain private schools in this state.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074969,
+   "b": "HB 539",
+   "s": "90R",
+   "c": "Relating to election dates.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074971,
+   "b": "HB 541",
+   "s": "90R",
+   "c": "Relating to requirements regarding certain behavior management for a student enrolled in a special education program of a public school.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074974,
+   "b": "HB 544",
+   "s": "90R",
+   "c": "Relating to a study by the Texas Education Agency regarding standardizing building designs for public schools.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074976,
+   "b": "HB 546",
+   "s": "90R",
+   "c": "Relating to an exemption from sales and use taxes for educational materials purchased by a teacher.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074984,
+   "b": "HB 554",
+   "s": "90R",
+   "c": "Relating to the provision of mental health resources to the parent of a student enrolled in a public school.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074992,
+   "b": "HB 563",
+   "s": "90R",
+   "c": "Relating to the limitation on increases in the appraised value of a residence homestead for ad valorem taxation.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074999,
+   "b": "HB 569",
+   "s": "90R",
+   "c": "Relating to the inclusion of information regarding sexual assault victim and youth crisis support services on certain student identification cards issued by a public school.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075002,
+   "b": "HB 573",
+   "s": "90R",
+   "c": "Relating to placement on the minimum salary schedule and service credit in the Teacher Retirement System of Texas for certain public school career or technology education teachers.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075009,
+   "b": "HB 580",
+   "s": "90R",
+   "c": "Relating to eligibility requirements for private schools to participate in the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075019,
+   "b": "HB 590",
+   "s": "90R",
+   "c": "Relating to an elective course on mindfulness for middle school, junior high school, and high school students.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075020,
+   "b": "HB 591",
+   "s": "90R",
+   "c": "Relating to a parental leave policy for certain school district classroom teachers.",
+   "a": [
+    "Educator Workforce"
    ],
    "i": "",
    "st": "introduced",
@@ -123,12 +1384,270 @@
    "sm": false
   },
   {
+   "id": 4075023,
+   "b": "HB 594",
+   "s": "90R",
+   "c": "Relating to a policy regarding the maintenance, administration, and disposal of medication for respiratory distress by public and private schools.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075025,
+   "b": "HB 596",
+   "s": "90R",
+   "c": "Relating to a repeal of the exception to the foreign language curriculum requirements for high school students in public schools for completion of credits in computer programming languages.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075033,
+   "b": "HB 603",
+   "s": "90R",
+   "c": "Relating to the development and adoption by public schools of local policies to address eloping behavior by students with autism or other intellectual or developmental disabilities.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075056,
+   "b": "HB 627",
+   "s": "90R",
+   "c": "Relating to a requirement that certain ad valorem tax-related notices be delivered to a property owner by certified mail.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075059,
+   "b": "HB 630",
+   "s": "90R",
+   "c": "Relating to changing the name of the offense of terroristic threat to criminal threat and to updating references to conform to that terminology.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075074,
+   "b": "HB 645",
+   "s": "90R",
+   "c": "Relating to a notification requirement if a public school does not have a nurse, school counselor, or librarian assigned to the school during all instructional hours.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075075,
+   "b": "HB 646",
+   "s": "90R",
+   "c": "Relating to repealing the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075103,
+   "b": "HB 675",
+   "s": "90R",
+   "c": "Relating to repealing the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075113,
    "b": "HB 685",
    "s": "90R",
    "c": "Relating to the use of average enrollment for purposes of the public school finance system.",
    "a": [
     "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075115,
+   "b": "HB 687",
+   "s": "90R",
+   "c": "Relating to the vote required in an election to approve an ad valorem tax rate that exceeds a taxing unit's voter-approval tax rate; making conforming changes.",
+   "a": [
+    "Property Taxes",
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075117,
+   "b": "HB 689",
+   "s": "90R",
+   "c": "Relating to the calculation of certain ad valorem tax rates of a taxing unit and the manner in which a proposed ad valorem tax rate that exceeds the voter-approval tax rate is approved; making conforming changes.",
+   "a": [
+    "Property Taxes",
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075119,
+   "b": "HB 691",
+   "s": "90R",
+   "c": "Relating to the allocation of constitutional transfers of general revenue to the economic stabilization fund, the Texas severance tax revenue and oil and natural gas (Texas STRONG) defense fund, the oil and gas regulation and cleanup fund, and the Texas emissions reduction plan fund and to the permissible uses of money deposited to the Texas severance tax revenue and oil and natural gas (Texas STRONG) defense fund.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075122,
+   "b": "HB 694",
+   "s": "90R",
+   "c": "Relating to the public meeting location for a governmental body of a political subdivision.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075124,
+   "b": "HB 696",
+   "s": "90R",
+   "c": "Relating to prohibiting certain governmental entities from entering into an agreement prohibiting the entity from releasing certain information regarding a data center project.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075125,
+   "b": "HB 697",
+   "s": "90R",
+   "c": "Relating to the transfer of public school students who are children of certain public servants.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075126,
+   "b": "HB 698",
+   "s": "90R",
+   "c": "Relating to the electronic payment of ad valorem taxes; authorizing a fee.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075129,
+   "b": "HB 702",
+   "s": "90R",
+   "c": "Relating to a limitation on the percentage of state lottery money paid as prizes to winning ticket holders.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075132,
+   "b": "HB 705",
+   "s": "90R",
+   "c": "Relating to immunization requirements.",
+   "a": [
+    "Student Health & Discipline"
    ],
    "i": "",
    "st": "introduced",
@@ -164,6 +1683,1641 @@
    "st": "introduced",
    "f": "2026-11-09",
    "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075176,
+   "b": "HB 723",
+   "s": "90R",
+   "c": "Relating to the use of average enrollment for purposes of the public school finance system.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075182,
+   "b": "HB 729",
+   "s": "90R",
+   "c": "Relating to limitations on the duration of and the property covered by certain local tax abatement agreements and economic development program agreements, including limitations applicable to additional phases of a project.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075184,
+   "b": "HB 731",
+   "s": "90R",
+   "c": "Relating to the abolition of ad valorem taxes and the creation of a joint interim committee on the abolition of those taxes.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075185,
+   "b": "HB 732",
+   "s": "90R",
+   "c": "Relating to the ineligibility of certain data centers for state and local economic development incentives.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075188,
+   "b": "HB 735",
+   "s": "90R",
+   "c": "Relating to the repeal of Texas' education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075192,
+   "b": "HB 739",
+   "s": "90R",
+   "c": "Relating to the interment of certain cremated pet remains with human remains in perpetual care cemeteries and an exemption from ad valorem taxation for those cemeteries.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075194,
+   "b": "HB 741",
+   "s": "90R",
+   "c": "Relating to indicators of achievement under the public school accountability system.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075205,
+   "b": "HB 752",
+   "s": "90R",
+   "c": "Relating to a limit on the cost to a student of participating in an extracurricular activity offered by a public school and to an allotment under the Foundation School Program for extracurricular participation costs.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075206,
+   "b": "HB 753",
+   "s": "90R",
+   "c": "Relating to the exemption from ad valorem taxation of part of the appraised value of the residence homestead of a partially disabled veteran or the surviving spouse of such a veteran based on the disability rating of the veteran.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075207,
+   "b": "HB 754",
+   "s": "90R",
+   "c": "Relating to the use of the compensatory education allotment for students at the campuses whose students generate the allotment.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075231,
+   "b": "HB 759",
+   "s": "90R",
+   "c": "Relating to parental leave policies for certain public school classroom teachers.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075232,
+   "b": "HB 760",
+   "s": "90R",
+   "c": "Relating to the reimbursement under Medicaid of local educational agencies for the provision of health care services to students.",
+   "a": [
+    "School Finance",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075233,
+   "b": "HB 761",
+   "s": "90R",
+   "c": "Relating to the permissible uses of the school safety allotment under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075234,
+   "b": "HB 762",
+   "s": "90R",
+   "c": "Relating to the school safety allotment under the Foundation School Program.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075236,
+   "b": "HB 764",
+   "s": "90R",
+   "c": "Relating to eligibility for the gifted and talented student allotment under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075239,
+   "b": "HB 767",
+   "s": "90R",
+   "c": "Relating to reporting by the Texas Education Agency and the comptroller on school finance.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075248,
+   "b": "HB 776",
+   "s": "90R",
+   "c": "Relating to certain offenses and conduct subject to expulsion that are associated with possessing, carrying, exhibiting, or using a firearm on or within 1,000 feet of school property.",
+   "a": [
+    "Student Health & Discipline",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075249,
+   "b": "HB 777",
+   "s": "90R",
+   "c": "Relating to the self-administration of prescription anti-seizure medicine by a student at a public school.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075258,
+   "b": "HB 786",
+   "s": "90R",
+   "c": "Relating to the instruction on bullying and harassment included in the required health curriculum for public school students.",
+   "a": [
+    "Curriculum & Instruction",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075259,
+   "b": "HB 787",
+   "s": "90R",
+   "c": "Relating to the authority of a county commissioners court to adopt an exemption from ad valorem taxation by each taxing unit that taxes the property of the portion of the appraised value of a person's property that is attributable to the installation in or on the property of certain water conservation systems.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075261,
+   "b": "HB 789",
+   "s": "90R",
+   "c": "Relating to the establishment of a grant program to provide training to public school educators and administrators related to teaching historically underserved students.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075284,
+   "b": "HB 813",
+   "s": "90R",
+   "c": "Relating to bullying and cyberbullying in public schools.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075293,
+   "b": "HB 822",
+   "s": "90R",
+   "c": "Relating to the repeal of the Dementia Prevention and Research Institute of Texas.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075296,
+   "b": "HB 825",
+   "s": "90R",
+   "c": "Relating to the text of ballot propositions that increase taxes.",
+   "a": [
+    "Property Taxes",
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075297,
+   "b": "HB 826",
+   "s": "90R",
+   "c": "Relating to a limitation on the salary paid to officers and employees of this state and political subdivisions of this state.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075299,
+   "b": "HB 828",
+   "s": "90R",
+   "c": "Relating to the authority of a political subdivision to propose for voter approval the issuance of general obligation bonds for a purpose rejected by voters at a bond election held during the preceding five years.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075301,
+   "b": "HB 830",
+   "s": "90R",
+   "c": "Relating to the offense of unlawful use of public funds for communications relating to a measure.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075304,
+   "b": "HB 833",
+   "s": "90R",
+   "c": "Relating to prohibiting a school district from procuring training, insurance products and risk pool participation, good or supplies from a buy board, and any investment or professional services from certain nonprofit associations or organizations.",
+   "a": [
+    "Governance & Local Control",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075305,
+   "b": "HB 834",
+   "s": "90R",
+   "c": "Relating to a prohibition on the guarantee of public school bonds.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075308,
+   "b": "HB 837",
+   "s": "90R",
+   "c": "Relating to the process for filling a vacancy on the board of trustees of an independent school district.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075312,
+   "b": "HB 841",
+   "s": "90R",
+   "c": "Relating to the vote required to approve the issuance of general obligation bonds by a political subdivision.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075315,
+   "b": "HB 844",
+   "s": "90R",
+   "c": "Relating to the publication of a line-item budget by school districts and municipalities.",
+   "a": [
+    "Governance & Local Control",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075316,
+   "b": "HB 845",
+   "s": "90R",
+   "c": "Relating to the required posting by governmental entities of employee contracts and compensation on entity Internet websites.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075319,
+   "b": "HB 848",
+   "s": "90R",
+   "c": "Relating to a prohibition on the receipt of bond proceeds by persons who make a contribution to certain political committees.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075321,
+   "b": "HB 850",
+   "s": "90R",
+   "c": "Relating to the eligibility of certain children of foreign military members for enrollment in a free prekindergarten program.",
+   "a": [
+    "Curriculum & Instruction",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075324,
+   "b": "HB 853",
+   "s": "90R",
+   "c": "Relating to the basic allotment under the Foundation School Program, including an adjustment in that amount to reflect inflation.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075333,
+   "b": "HB 862",
+   "s": "90R",
+   "c": "Relating to eliminating certain state-required assessment instruments and certain end-of-course assessment instruments not required by federal law.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075334,
+   "b": "HB 863",
+   "s": "90R",
+   "c": "Relating to a requirement that an appraisal district rely on an appraisal of real property prepared by an appraiser and submitted to the district by the property owner when determining the value of the property.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075339,
+   "b": "HB 868",
+   "s": "90R",
+   "c": "Relating to an adjustment in the amount of the basic allotment and the guaranteed yield under the Foundation School Program to reflect inflation.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075342,
+   "b": "HB 871",
+   "s": "90R",
+   "c": "Relating to an exemption from ad valorem taxation of the amount of the appraised value of real property that arises from the installation or construction on the property of a generator that is primarily for the production and distribution of energy for on-site use.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075347,
+   "b": "HB 872",
+   "s": "90R",
+   "c": "Relating to reducing school district maintenance and operations ad valorem taxes through the use of certain surplus state revenue.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075351,
+   "b": "HB 876",
+   "s": "90R",
+   "c": "Relating to increasing the criminal penalty for making false reports regarding an emergency at an institution of higher education or primary or secondary school and to restitution for emergency response costs associated with those false reports.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075399,
+   "b": "HB 879",
+   "s": "90R",
+   "c": "Relating to the regional development and use of student diagnostic assessments, the reduction of high-stakes testing, teacher instructional discretion, and conformity with federal assessment requirements.",
+   "a": [
+    "Accountability & Assessment",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075400,
+   "b": "HB 880",
+   "s": "90R",
+   "c": "Relating to instruction in human trafficking awareness in public schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075401,
+   "b": "HB 881",
+   "s": "90R",
+   "c": "Relating to the selection of the board of directors of certain appraisal districts.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075404,
+   "b": "HB 884",
+   "s": "90R",
+   "c": "Relating to an exemption from ad valorem taxation by certain taxing units of a portion of the appraised value of the residence homestead of the parent or guardian of a person who is disabled and who resides with the parent or guardian.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075405,
+   "b": "HB 885",
+   "s": "90R",
+   "c": "Relating to the exclusion from the market value of real property for ad valorem tax purposes of the value of any improvement, or any feature incorporated in an improvement, made to the property if the primary purpose of the improvement or feature is compliance with the requirements of standards that address accessible design of buildings or other facilities.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075472,
+   "b": "HB 894",
+   "s": "90R",
+   "c": "Relating to leave for certain public employees to protest certain property tax actions before an appraisal review board.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075497,
+   "b": "HB 905",
+   "s": "90R",
+   "c": "Relating to the collection and disclosure of certain public information.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075498,
+   "b": "HB 906",
+   "s": "90R",
+   "c": "Relating to an alternative dispute resolution procedure regarding certain matters under the public information law.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075499,
+   "b": "HB 907",
+   "s": "90R",
+   "c": "Relating to open meetings and public information training for certain public officials and attorneys regarding the open meetings and public information laws.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075500,
+   "b": "HB 908",
+   "s": "90R",
+   "c": "Relating to comments by members of the public at an open meeting of a governmental body on items not on the agenda for that meeting.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075502,
+   "b": "HB 909",
+   "s": "90R",
+   "c": "Relating to cyber safety instruction for public school students.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075519,
+   "b": "HB 912",
+   "s": "90R",
+   "c": "Relating to the inclusion of instruction on voter registration and civic engagement in the required curriculum for certain public high school students and certification by high school principals regarding access to voter registration application forms.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075523,
+   "b": "HB 913",
+   "s": "90R",
+   "c": "Relating to the public meeting location for a governmental body of a political subdivision.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075546,
+   "b": "HB 916",
+   "s": "90R",
+   "c": "Relating to eligibility requirements for private schools to participate in the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075553,
+   "b": "HB 923",
+   "s": "90R",
+   "c": "Relating to the review and forensic audit of certain school districts by the Sunset Advisory Commission.",
+   "a": [
+    "Governance & Local Control",
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075554,
+   "b": "HB 924",
+   "s": "90R",
+   "c": "Relating to state lottery prize payouts and the use of lottery proceeds for public education and classroom teacher salaries, and making an appropriation.",
+   "a": [
+    "School Finance",
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075555,
+   "b": "HB 925",
+   "s": "90R",
+   "c": "Relating to a requirement that an appraisal review board adopt the value determined by a certified appraiser in certain residential real property protests and to the penalty for tampering with certain appraisals filed with the board.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075585,
+   "b": "HB 931",
+   "s": "90R",
+   "c": "Relating to excused absences from public school for a student's attendance at the funeral, burial, or memorial service of an immediate family member.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075629,
+   "b": "HB 937",
+   "s": "90R",
+   "c": "Relating to the provision of information regarding a local intellectual and developmental disability authority to the parents or guardians of certain special education students.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075639,
+   "b": "HB 945",
+   "s": "90R",
+   "c": "Relating to employment leave for victims of domestic violence, sexual assault, and stalking.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075647,
+   "b": "HB 946",
+   "s": "90R",
+   "c": "Relating to the salary and wages paid to public school employees.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075650,
+   "b": "HB 949",
+   "s": "90R",
+   "c": "Relating to requirements and preferences for purchasing construction materials produced in the United States and this state.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075657,
+   "b": "HB 956",
+   "s": "90R",
+   "c": "Relating to the permissible uses of the school safety allotment and the creation of a mental and behavioral health allotment under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "Student Health & Discipline",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075658,
+   "b": "HB 957",
+   "s": "90R",
+   "c": "Relating to coverage for mental health conditions and substance use disorders under certain governmental health benefit plans.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075660,
+   "b": "HB 959",
+   "s": "90R",
+   "c": "Relating to creating a fine arts allotment under the public school finance system.",
+   "a": [
+    "School Finance",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075664,
+   "b": "HB 962",
+   "s": "90R",
+   "c": "Relating to the reporting of a controlled substance overdose occurring on the campus of a public school.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075665,
+   "b": "HB 963",
+   "s": "90R",
+   "c": "Relating to the permissible uses of the school safety allotment under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075685,
+   "b": "HB 968",
+   "s": "90R",
+   "c": "Relating to the establishment of the behaviorally at-risk student grant program to provide social and cognitive skills training to certain public school students.",
+   "a": [
+    "Curriculum & Instruction",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075689,
+   "b": "HB 973",
+   "s": "90R",
+   "c": "Relating to the misuse of money received for an open-enrollment charter school to support an out-of-state school.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075691,
+   "b": "HB 975",
+   "s": "90R",
+   "c": "Relating to a public school paid parental leave policy and an allotment under the Foundation School Program for the cost of providing paid parental leave under that policy.",
+   "a": [
+    "School Finance",
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075716,
+   "b": "HB 981",
+   "s": "90R",
+   "c": "Relating to health benefit plan coverage for certain tests to detect prostate cancer.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075727,
+   "b": "HB 992",
+   "s": "90R",
+   "c": "Relating to public school bilingual education programs, dual language immersion programs, and special language programs.",
+   "a": [
+    "Curriculum & Instruction",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075742,
+   "b": "HB 1007",
+   "s": "90R",
+   "c": "Relating to the right of an employee to time off from work if the employee or the employee's child is a victim of family violence or a violent felony offense.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075766,
+   "b": "HB 1021",
+   "s": "90R",
+   "c": "Relating to prohibiting public schools from contracting with and accepting things of value from foreign sources; providing an administrative penalty.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075815,
+   "b": "HB 1040",
+   "s": "90R",
+   "c": "Relating to reducing school district maintenance and operations ad valorem taxes through the use of certain surplus state revenue.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075818,
+   "b": "HB 1043",
+   "s": "90R",
+   "c": "Relating to the use by a political subdivision of public funds for lobbying activities.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075821,
+   "b": "HB 1046",
+   "s": "90R",
+   "c": "Relating to a temporary teaching certificate for certain military service members and first responders.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075822,
+   "b": "HB 1047",
+   "s": "90R",
+   "c": "Relating to requiring instruction in the Success Sequence for public school students.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075823,
+   "b": "HB 1048",
+   "s": "90R",
+   "c": "Relating to a public school paid parental leave policy and an allotment under the Foundation School Program for the cost of providing paid parental leave under that policy.",
+   "a": [
+    "School Finance",
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075825,
+   "b": "HB 1050",
+   "s": "90R",
+   "c": "Relating to the misuse of money received for an open-enrollment charter school to support an out-of-state school.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075830,
+   "b": "HB 1055",
+   "s": "90R",
+   "c": "Relating to a credit for prepayment of the amount required to be paid by a school district for the purchase of attendance credit under the public school finance system.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075847,
+   "b": "HB 1060",
+   "s": "90R",
+   "c": "Relating to a study by the Texas Education Agency regarding recommended standards for school district facility maintenance and custodial services.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075851,
+   "b": "HB 1064",
+   "s": "90R",
+   "c": "Relating to an exemption from taxes imposed on the gross receipts of electricity sold to political subdivisions.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075852,
+   "b": "HB 1065",
+   "s": "90R",
+   "c": "Relating to reducing school district maintenance and operations ad valorem taxes through the use of certain surplus state revenue.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075916,
+   "b": "HB 1069",
+   "s": "90R",
+   "c": "Relating to a credit against required recapture payments for certain school districts for the cost of property and casualty coverage under the public school finance system.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075926,
+   "b": "HB 1074",
+   "s": "90R",
+   "c": "Relating to a limitation on compensation of superintendents, principals, and other school district administrators.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075927,
+   "b": "HB 1075",
+   "s": "90R",
+   "c": "Relating to an exemption of residence homesteads from school district maintenance and operations ad valorem taxation and state aid to replace the resulting loss of school district operating revenue.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075931,
+   "b": "HB 1078",
+   "s": "90R",
+   "c": "Relating to required provision of workers' compensation insurance coverage for employees of building and construction contractors and subcontractors.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075954,
+   "b": "HB 1081",
+   "s": "90R",
+   "c": "Relating to the repeal of Texas’ education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075345,
+   "b": "HJR 23",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to abolish ad valorem taxes.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075358,
+   "b": "HJR 29",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to define certain terms for purposes of the exemption from ad valorem taxation of farm products in the hands of the producer.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075359,
+   "b": "HJR 30",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment increasing the threshold of voter approval for a school district bond election.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075364,
+   "b": "HJR 35",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to set lower limits on the maximum appraised value of residence homesteads and of real property other than a residence homestead for ad valorem tax purposes and to provide that those limits continue in effect following a change of ownership of the property.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075367,
+   "b": "HJR 38",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to set a lower limit on the maximum appraised value of a residence homestead for ad valorem taxation.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075375,
+   "b": "HJR 46",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment providing for the creation of the Texas severance tax revenue and oil and natural gas (Texas STRONG) defense fund, dedicating the money in that fund to benefit areas of the state significantly affected by oil and gas production, and providing for the transfer of general revenue to that fund, the economic stabilization fund, and other funds used to construct roads, reduce the emission of air contaminants, regulate oil and gas development, and provide property tax relief.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075376,
+   "b": "HJR 47",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment protecting private schools from state and local regulation.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075416,
+   "b": "HJR 50",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to provide for an exemption from ad valorem taxation of part of the market value of the residence homestead of a partially disabled veteran or the surviving spouse of such a veteran based on the disability rating of the veteran.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075417,
+   "b": "HJR 51",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the commissioners court of a county to exempt from ad valorem taxation by each political subdivision that taxes the property the portion of the assessed value of a person's property that is attributable to the installation in or on the property of a rainwater harvesting or graywater system.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075422,
+   "b": "HJR 56",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment providing for the repeal of the Dementia Prevention and Research Institute of Texas and the Dementia Prevention and Research Fund to provide money for research on and prevention and treatment of dementia, Alzheimer's disease, Parkinson's disease, and related disorders in this state, and transferring from that fund $3 billion to Texas Education Agency for property tax relief",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075424,
+   "b": "HJR 58",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to abolish ad valorem taxes.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075425,
+   "b": "HJR 59",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment authorizing the legislature to exempt from ad valorem taxation the amount of the appraised value of real property that arises from the installation or construction on the property of a generator that is primarily for the production and distribution of energy for on-site use.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075426,
+   "b": "HJR 60",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment dedicating certain general revenue that would otherwise be transferred to the economic stabilization fund to reducing school district maintenance and operations ad valorem taxes.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075427,
+   "b": "HJR 61",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to provide for an exemption from ad valorem taxation by certain political subdivisions of a portion of the market value of the residence homestead of the parent or guardian of a person who is disabled and who resides with the parent or guardian.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075428,
+   "b": "HJR 63",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to exclude from the market value of real property for ad valorem tax purposes the value of any improvement, or any feature incorporated in an improvement, made to the property if the primary purpose of the improvement or feature is compliance with the requirements of standards that address accessible design of buildings or other facilities.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075930,
+   "b": "HJR 71",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to exempt residence homesteads from school district maintenance and operations ad valorem taxation and to require the state to replace the resulting revenue loss.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
    "la": "Filed",
    "sm": false
   },
@@ -248,7 +3402,8 @@
    "s": "90R",
    "c": "Relating to purchase or other acquisition of personal property by a political subdivision.",
    "a": [
-    "Governance & Local Control"
+    "Governance & Local Control",
+    "Operations & Business"
    ],
    "i": "",
    "st": "introduced",
@@ -323,7 +3478,7 @@
    "s": "90R",
    "c": "Relating to the provision of information regarding a local intellectual and developmental disability authority to the parents or guardians of certain special education students.",
    "a": [
-    "Student Health & Discipline"
+    "Special Populations"
    ],
    "i": "",
    "st": "introduced",
@@ -353,7 +3508,8 @@
    "s": "90R",
    "c": "Relating to the permissible uses of the school safety allotment under the Foundation School Program.",
    "a": [
-    "School Finance"
+    "School Finance",
+    "School Safety"
    ],
    "i": "",
    "st": "introduced",
@@ -443,7 +3599,68 @@
    "s": "90R",
    "c": "Relating to creating a fine arts allotment under the public school finance system.",
    "a": [
-    "School Finance"
+    "School Finance",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075149,
+   "b": "SB 115",
+   "s": "90R",
+   "c": "Relating to repealing the requirement to display the Ten Commandments in public school classrooms.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075150,
+   "b": "SB 116",
+   "s": "90R",
+   "c": "Relating to a prohibition on the application of glyphosate or neonicotinoid pesticides at public school buildings and other school district facilities.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074896,
+   "b": "SB 122",
+   "s": "90R",
+   "c": "Relating to a substitute teaching requirement for each member of the senate and the house of representatives.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074897,
+   "b": "SB 123",
+   "s": "90R",
+   "c": "Relating to the employment of a special education liaison at public schools.",
+   "a": [
+    "Special Populations"
    ],
    "i": "",
    "st": "introduced",
@@ -473,7 +3690,8 @@
    "s": "90R",
    "c": "Relating to public school bilingual education programs, dual language immersion programs, and special language programs.",
    "a": [
-    "Curriculum & Instruction"
+    "Curriculum & Instruction",
+    "Special Populations"
    ],
    "i": "",
    "st": "introduced",
@@ -498,12 +3716,363 @@
    "sm": false
   },
   {
+   "id": 4074954,
+   "b": "SB 139",
+   "s": "90R",
+   "c": "Relating to social workers employed by school districts.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4074780,
    "b": "SB 145",
    "s": "90R",
    "c": "Relating to requiring public schools to designate certain uniform election dates as staff development days.",
    "a": [
+    "Bonds, Elections & Debt",
     "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075525,
+   "b": "SB 149",
+   "s": "90R",
+   "c": "Relating to the training requirements for public school educators regarding behavioral interventions and supports.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075484,
+   "b": "SB 169",
+   "s": "90R",
+   "c": "Relating to the eligibility of certain children of foreign military members for enrollment in a free prekindergarten program.",
+   "a": [
+    "Curriculum & Instruction",
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075220,
+   "b": "SB 177",
+   "s": "90R",
+   "c": "Relating to the employment of certified school counselors by school districts.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075535,
+   "b": "SB 188",
+   "s": "90R",
+   "c": "Relating to the abolishment of the state lottery and the administration of charitable bingo by the Texas Commission of Licensing and Regulation.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075537,
+   "b": "SB 190",
+   "s": "90R",
+   "c": "Relating to the uniform election date.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075380,
+   "b": "SB 204",
+   "s": "90R",
+   "c": "Relating to including career-connected learning in the micro-credential certification program for public school educator continuing education.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075385,
+   "b": "SB 209",
+   "s": "90R",
+   "c": "Relating to required training for school district peace officers and school resource officers on limitations on the officers' authority to restrain or otherwise incapacitate certain students.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075390,
+   "b": "SB 214",
+   "s": "90R",
+   "c": "Relating to the issuance of a certified birth record of a child who receives public assistance program benefits for public school enrollment purposes.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075439,
+   "b": "SB 220",
+   "s": "90R",
+   "c": "Relating to certain agreements arising out of special investigations conducted by the Texas Education Agency.",
+   "a": [
+    "Governance & Local Control",
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075578,
+   "b": "SB 241",
+   "s": "90R",
+   "c": "Relating to accountability interventions for certain school districts with low-performing campuses.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075595,
+   "b": "SB 254",
+   "s": "90R",
+   "c": "Relating to cost-of-living increases applicable to certain benefits paid by the Teacher Retirement System of Texas.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075491,
+   "b": "SB 261",
+   "s": "90R",
+   "c": "Relating to providing free prekindergarten for certain children.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075602,
+   "b": "SB 271",
+   "s": "90R",
+   "c": "Relating to a prescription drug purchasing pool for certain health benefit plan issuers and employers.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075614,
+   "b": "SB 281",
+   "s": "90R",
+   "c": "Relating to the authority of the board of trustees of certain small school districts to decrease the number of trustees on the board.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075625,
+   "b": "SB 291",
+   "s": "90R",
+   "c": "Relating to the use of education savings account program money for online or virtual education services.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075638,
+   "b": "SB 294",
+   "s": "90R",
+   "c": "Relating to the repeal of the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075699,
+   "b": "SB 298",
+   "s": "90R",
+   "c": "Relating to the limitation on increases in the appraised value of a residence homestead for ad valorem taxation.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075846,
+   "b": "SB 310",
+   "s": "90R",
+   "c": "Relating to the public school finance system.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075903,
+   "b": "SB 328",
+   "s": "90R",
+   "c": "Relating to the operation near a public or private primary or secondary school or a preschool of a retail establishment selling vaping apparatuses or tobacco products; providing a civil penalty.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075922,
+   "b": "SB 329",
+   "s": "90R",
+   "c": "Relating to creating the criminal offense of trespass on or near school or day-care center property.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075953,
+   "b": "SB 333",
+   "s": "90R",
+   "c": "Relating to required provision of workers' compensation insurance coverage for employees of building and construction contractors and subcontractors.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075713,
+   "b": "SJR 14",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to set a lower limit on the maximum appraised value of a residence homestead for ad valorem taxation.",
+   "a": [
+    "Property Taxes"
    ],
    "i": "",
    "st": "introduced",
