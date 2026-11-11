@@ -15,12 +15,11 @@ pull.json lives in the scratchpad, never in the repo.
        {"id": <billId>, "type": "HB", "number": "6", "caption": "<summary field>",
         "lastAction": "<lastAction>", "lastActionDate": "YYYY-MM-DD", "impact": "High"|"Medium"|"Low"|null})
 
-  2. Plan:  python3 tools/build_bills.py plan pull.json [--all-summaries]
-     Prints JSON: {"lookup": [billIds], "summary_check": [billIds], "bill_count": N,
-     "full_summary_sweep": true|false}
+  2. Plan:  python3 tools/build_bills.py plan pull.json
+     Prints JSON: {"lookup": [billIds], "summary_check": [billIds], "bill_count": N}
      "lookup" holds new bills and bills whose last action changed. "summary_check" holds
-     those same bills plus, on a full sweep, every bill without a summary yet. A full
-     sweep runs on Mondays or when --all-summaries is given.
+     every bill without a summary yet, plus any changed bill, so a summary posted on the
+     portal shows on the dashboard after the next daily refresh.
 
   3. Lookups. Call get-portal-bills once on the "90th Legislative Session Education Bills"
      portal with limit 2000 (follow nextCursor if it is not null). The result is large, so
@@ -107,22 +106,20 @@ def session_code(legislature, session_type):
     sys.exit(f"Unknown session type '{session_type}'")
 
 
-def plan(pull, all_summaries=False):
+def plan(pull):
     cur, prev = merge_tracks(pull), previous()
     if not cur:
         print(json.dumps({"bill_count": 0, "note": "No 90th session bills yet. Leave bills.json as is."}))
         sys.exit(3)
-    full = all_summaries or date.today().weekday() == 0 or not prev
     lookup, summary_check = [], []
     for bid, b in cur.items():
         p = prev.get(bid)
         changed = (not p or p.get("l") != b["lastActionDate"] or p.get("la") != b["lastAction"])
         if changed:
             lookup.append(int(bid))
-        if changed or (full and not p.get("sm")):
+        if changed or not p.get("sm"):
             summary_check.append(int(bid))
-    print(json.dumps({"bill_count": len(cur), "lookup": lookup, "summary_check": summary_check,
-                      "full_summary_sweep": full}))
+    print(json.dumps({"bill_count": len(cur), "lookup": lookup, "summary_check": summary_check}))
 
 
 def tracks(session_file, out_file):
@@ -248,8 +245,8 @@ def build(pull):
 if __name__ == "__main__":
     args = sys.argv[1:]
     cmd = args[0] if args else ""
-    if cmd == "plan" and len(args) in (2, 3) and args[2:] in ([], ["--all-summaries"]):
-        plan(json.loads(Path(args[1]).read_text()), all_summaries=len(args) == 3)
+    if cmd == "plan" and len(args) == 2:
+        plan(json.loads(Path(args[1]).read_text()))
     elif cmd == "build" and len(args) == 2:
         build(json.loads(Path(args[1]).read_text()))
     elif cmd == "tracks" and len(args) == 3:
