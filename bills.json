@@ -659,6 +659,22 @@
    "sm": false
   },
   {
+   "id": 4074725,
+   "b": "HB 331",
+   "s": "90R",
+   "c": "Relating to the use of automatic license plate readers by governmental entities.",
+   "a": [
+    "Governance & Local Control",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4074726,
    "b": "HB 332",
    "s": "90R",
@@ -1921,6 +1937,7 @@
    "s": "90R",
    "c": "Relating to the school safety allotment under the Foundation School Program.",
    "a": [
+    "School Finance",
     "School Safety"
    ],
    "i": "",
@@ -3205,6 +3222,21 @@
    "sm": false
   },
   {
+   "id": 4076077,
+   "b": "HB 1086",
+   "s": "90R",
+   "c": "Relating to prohibiting the provision or use of public money to fund certain legal services for aliens unlawfully present in the United States; providing a civil penalty.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4076078,
    "b": "HB 1087",
    "s": "90R",
@@ -3250,12 +3282,180 @@
    "sm": false
   },
   {
+   "id": 4076085,
+   "b": "HB 1094",
+   "s": "90R",
+   "c": "Relating to contracting with companies that boycott or discriminate against certain entities.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076112,
+   "b": "HB 1096",
+   "s": "90R",
+   "c": "Relating to the use of average enrollment for purposes of the public school finance system.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076113,
+   "b": "HB 1097",
+   "s": "90R",
+   "c": "Relating to installment payments of ad valorem taxes imposed on residence homesteads in certain counties.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076114,
+   "b": "HB 1098",
+   "s": "90R",
+   "c": "Relating to the establishment of the Texas Teacher Recruitment Scholarship Program and the Texas Teacher Retention Incentive Program.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076116,
+   "b": "HB 1100",
+   "s": "90R",
+   "c": "Relating to certain public school instructional requirements and prohibitions and the incorporation of certain instructional activities as part of student coursework.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076135,
+   "b": "HB 1104",
+   "s": "90R",
+   "c": "Relating to the authority of the chief appraiser of certain appraisal districts to consider a property to be a comparable property when using the market data comparison method of appraisal to determine the market value of a residence homestead for ad valorem tax purposes.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076130,
+   "b": "HB 1106",
+   "s": "90R",
+   "c": "Relating to an exemption from ad valorem taxation of the total appraised value of the residence homestead of an unpaid caregiver of an individual who is on a waiting list to receive long-term services and supports under the Medicaid program while the individual is on the list.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4076142,
    "b": "HB 1113",
    "s": "90R",
    "c": "Relating to a limitation on the total amount of ad valorem taxes that a school district may impose on certain residence homesteads following a substantial school tax increase.",
    "a": [
+    "School Finance",
     "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076150,
+   "b": "HB 1122",
+   "s": "90R",
+   "c": "Relating to retirees of the Teacher Retirement System of Texas who resume certain employment with a school district.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076151,
+   "b": "HB 1123",
+   "s": "90R",
+   "c": "Relating to the eligibility of a student with fetal alcohol spectrum disorder for special education services provided by a public school.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076152,
+   "b": "HB 1124",
+   "s": "90R",
+   "c": "Relating to allowing the board of trustees of certain school districts to create a nonvoting student trustee position on the board.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076154,
+   "b": "HB 1127",
+   "s": "90R",
+   "c": "Relating to the reporting of violations of law and wasteful spending under the whistleblower protection laws.",
+   "a": [
+    "Governance & Local Control",
+    "Educator Workforce"
    ],
    "i": "",
    "st": "introduced",
@@ -3271,6 +3471,22 @@
    "c": "Relating to repealing the education savings account program.",
    "a": [
     "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076177,
+   "b": "HB 1130",
+   "s": "90R",
+   "c": "Relating to a one-time credit against the ad valorem taxes imposed by a taxing unit on the first property that a person purchases and qualifies as the person's residence homestead and to the effect of the credit on the determination of the taxable value of a school district.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
    ],
    "i": "",
    "st": "introduced",
@@ -3522,11 +3738,44 @@
    "sm": false
   },
   {
+   "id": 4076159,
+   "b": "HJR 72",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment authorizing the legislature to exempt from ad valorem taxation the total assessed value of the residence homestead of an unpaid caregiver of an individual who is eligible to receive long-term services and supports under the Medicaid program while the individual is on a waiting list for the services and supports.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4076161,
    "b": "HJR 74",
    "s": "90R",
    "c": "Proposing a constitutional amendment authorizing the legislature to limit the total amount of ad valorem taxes that a school district may impose on certain residence homesteads following a substantial school tax increase.",
    "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076166,
+   "b": "HJR 75",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to provide for a one-time credit against the ad valorem taxes imposed by a political subdivision on the first property that a person purchases and qualifies as the person's residence homestead and to provide for the reimbursement of political subdivisions for the revenue loss incurred as a result of the credit.",
+   "a": [
+    "School Finance",
     "Property Taxes"
    ],
    "i": "",
@@ -4278,6 +4527,37 @@
    "st": "introduced",
    "f": "2026-11-10",
    "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076199,
+   "b": "SB 338",
+   "s": "90R",
+   "c": "Relating to data centers.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076324,
+   "b": "SB 342",
+   "s": "90R",
+   "c": "Relating to the creation of a behavioral health allotment under the Foundation School Program.",
+   "a": [
+    "School Finance",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
    "la": "Filed",
    "sm": false
   },
