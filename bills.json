@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-13",
  "preview": false,
  "bills": [
   {
@@ -933,6 +933,22 @@
    "sm": false
   },
   {
+   "id": 4074811,
+   "b": "HB 403",
+   "s": "90R",
+   "c": "Relating to access to certain law enforcement, corrections, and prosecutorial records under the public information law.",
+   "a": [
+    "Governance & Local Control",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4074812,
    "b": "HB 404",
    "s": "90R",
@@ -1135,6 +1151,22 @@
    "c": "Relating to the inspection of residential and day placement facilities for special education students.",
    "a": [
     "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074895,
+   "b": "HB 488",
+   "s": "90R",
+   "c": "Relating to access to information about an arrested person, an arrest, or a crime under the public information law.",
+   "a": [
+    "Governance & Local Control",
+    "School Safety"
    ],
    "i": "",
    "st": "introduced",
@@ -2376,6 +2408,21 @@
    "sm": false
   },
   {
+   "id": 4075402,
+   "b": "HB 882",
+   "s": "90R",
+   "c": "Relating to the confidentiality of home address information of foster parents in property tax appraisal records.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075404,
    "b": "HB 884",
    "s": "90R",
@@ -2412,6 +2459,22 @@
    "c": "Relating to leave for certain public employees to protest certain property tax actions before an appraisal review board.",
    "a": [
     "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075478,
+   "b": "HB 901",
+   "s": "90R",
+   "c": "Relating to requiring the board of directors and appraisal review board of certain appraisal districts to make video and audio recordings of open meetings available on the Internet.",
+   "a": [
+    "Property Taxes",
+    "Governance & Local Control"
    ],
    "i": "",
    "st": "introduced",
@@ -2532,6 +2595,21 @@
    "c": "Relating to eligibility requirements for private schools to participate in the education savings account program.",
    "a": [
     "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075547,
+   "b": "HB 917",
+   "s": "90R",
+   "c": "Relating to public access to certain computer-assisted mass appraisal systems used by appraisal districts to determine the appraised value of a property.",
+   "a": [
+    "Property Taxes"
    ],
    "i": "",
    "st": "introduced",
@@ -2820,6 +2898,22 @@
    "sm": false
   },
   {
+   "id": 4075735,
+   "b": "HB 1001",
+   "s": "90R",
+   "c": "Relating to a mental health leave policy for certain public safety employees.",
+   "a": [
+    "Educator Workforce",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075742,
    "b": "HB 1007",
    "s": "90R",
@@ -2831,6 +2925,21 @@
    "st": "introduced",
    "f": "2026-11-09",
    "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075761,
+   "b": "HB 1015",
+   "s": "90R",
+   "c": "Relating to the statewide intellectual and developmental disability coordinating council.",
+   "a": [
+    "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
    "la": "Filed",
    "sm": false
   },
@@ -2948,6 +3057,22 @@
    "c": "Relating to a credit for prepayment of the amount required to be paid by a school district for the purchase of attendance credit under the public school finance system.",
    "a": [
     "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-10",
+   "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075832,
+   "b": "HB 1057",
+   "s": "90R",
+   "c": "Relating to the award of public money to or governmental transactions with providers of women's health services and family planning services, including abortion providers and their affiliates; making conforming changes.",
+   "a": [
+    "Governance & Local Control",
+    "Operations & Business"
    ],
    "i": "",
    "st": "introduced",
@@ -3076,6 +3201,81 @@
    "st": "introduced",
    "f": "2026-11-10",
    "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076078,
+   "b": "HB 1087",
+   "s": "90R",
+   "c": "Relating to the valuation and protest of personal property.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076079,
+   "b": "HB 1088",
+   "s": "90R",
+   "c": "Relating to ad valorem tax remedies.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076084,
+   "b": "HB 1093",
+   "s": "90R",
+   "c": "Relating to the repeal of the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076142,
+   "b": "HB 1113",
+   "s": "90R",
+   "c": "Relating to a limitation on the total amount of ad valorem taxes that a school district may impose on certain residence homesteads following a substantial school tax increase.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076158,
+   "b": "HB 1129",
+   "s": "90R",
+   "c": "Relating to repealing the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
    "la": "Filed",
    "sm": false
   },
@@ -3218,7 +3418,7 @@
    "id": 4075422,
    "b": "HJR 56",
    "s": "90R",
-   "c": "Proposing a constitutional amendment providing for the repeal of the Dementia Prevention and Research Institute of Texas and the Dementia Prevention and Research Fund to provide money for research on and prevention and treatment of dementia, Alzheimer's disease, Parkinson's disease, and related disorders in this state, and transferring from that fund $3 billion to Texas Education Agency for property tax relief",
+   "c": "Proposing a constitutional amendment providing for the repeal of the Dementia Prevention and Research Institute of Texas and the Dementia Prevention and Research Fund to provide money for research on and prevention and treatment of dementia, Alzheimer's disease, Parkinson's disease, and related disorders in this state, and transferring from that fund $3 billion to Texas Education Agency for property tax relief.",
    "a": [
     "Property Taxes"
    ],
@@ -3318,6 +3518,21 @@
    "st": "introduced",
    "f": "2026-11-10",
    "l": "2026-11-10",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076161,
+   "b": "HJR 74",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment authorizing the legislature to limit the total amount of ad valorem taxes that a school district may impose on certain residence homesteads following a substantial school tax increase.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
    "la": "Filed",
    "sm": false
   },
