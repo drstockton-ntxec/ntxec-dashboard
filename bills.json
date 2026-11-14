@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "preview": false,
  "bills": [
   {
@@ -3492,6 +3492,21 @@
    "st": "introduced",
    "f": "2026-11-12",
    "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076416,
+   "b": "HB 1148",
+   "s": "90R",
+   "c": "Relating to the establishment of a middle school career and academic advising program in public schools and to postsecondary education and career counseling academies developed for school counselors and other public school advisors.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
    "la": "Filed",
    "sm": false
   },
