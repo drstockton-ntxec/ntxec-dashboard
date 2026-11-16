@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-16",
  "preview": false,
  "bills": [
   {
@@ -206,7 +206,8 @@
    "s": "90R",
    "c": "Relating to the establishment of a grant program for school district or open-enrollment charter school campuses that are designated as full-service community schools.",
    "a": [
-    "School Finance"
+    "School Finance",
+    "Student Health & Discipline"
    ],
    "i": "",
    "st": "introduced",
@@ -282,6 +283,21 @@
    "c": "Relating to the basic allotment and guaranteed yield under the Foundation School Program, including an adjustment in those amounts to reflect inflation.",
    "a": [
     "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074548,
+   "b": "HB 179",
+   "s": "90R",
+   "c": "Relating to leave for employees receiving prenatal care, lactating employees, and employees experiencing a reproductive loss.",
+   "a": [
+    "Educator Workforce"
    ],
    "i": "",
    "st": "introduced",
@@ -465,7 +481,7 @@
    "s": "90R",
    "c": "Relating to the publication of annual financial statements by public schools.",
    "a": [
-    "School Finance",
+    "Governance & Local Control",
     "School Choice & Charters"
    ],
    "i": "",
@@ -711,6 +727,7 @@
    "s": "90R",
    "c": "Relating to the establishment of an intensive workforce readiness adult education pilot program.",
    "a": [
+    "Curriculum & Instruction",
     "School Choice & Charters"
    ],
    "i": "",
@@ -819,6 +836,21 @@
    "a": [
     "School Finance",
     "Special Populations"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074782,
+   "b": "HB 369",
+   "s": "90R",
+   "c": "Relating to the regulation of the cultivation, manufacture, processing, distribution, sale, testing, transportation, delivery, transfer, possession, use, and taxation of cannabis and cannabis products and local regulation of cannabis establishments; authorizing the imposition of fees; requiring an occupational license or registration; creating a criminal offense; imposing a tax.",
+   "a": [
+    "School Finance"
    ],
    "i": "",
    "st": "introduced",
@@ -1151,6 +1183,7 @@
    "s": "90R",
    "c": "Relating to the use of revenue in the tax increment fund for certain tax increment financing reinvestment zones for the acquisition, construction, or reconstruction of an educational facility.",
    "a": [
+    "Property Taxes",
     "Operations & Business"
    ],
    "i": "",
@@ -1605,7 +1638,8 @@
    "s": "90R",
    "c": "Relating to the allocation of constitutional transfers of general revenue to the economic stabilization fund, the Texas severance tax revenue and oil and natural gas (Texas STRONG) defense fund, the oil and gas regulation and cleanup fund, and the Texas emissions reduction plan fund and to the permissible uses of money deposited to the Texas severance tax revenue and oil and natural gas (Texas STRONG) defense fund.",
    "a": [
-    "School Finance"
+    "School Finance",
+    "Property Taxes"
    ],
    "i": "",
    "st": "introduced",
@@ -1770,6 +1804,7 @@
    "s": "90R",
    "c": "Relating to the abolition of ad valorem taxes and the creation of a joint interim committee on the abolition of those taxes.",
    "a": [
+    "School Finance",
     "Property Taxes"
    ],
    "i": "",
@@ -1906,6 +1941,7 @@
    "c": "Relating to the reimbursement under Medicaid of local educational agencies for the provision of health care services to students.",
    "a": [
     "School Finance",
+    "Special Populations",
     "Student Health & Discipline"
    ],
    "i": "",
@@ -2056,6 +2092,36 @@
    "sm": false
   },
   {
+   "id": 4075278,
+   "b": "HB 807",
+   "s": "90R",
+   "c": "Relating to inquiries about and the consideration of criminal history record information regarding an applicant for employment.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075279,
+   "b": "HB 808",
+   "s": "90R",
+   "c": "Relating to requiring certain employers to provide paid sick leave to employees; providing administrative and civil penalties.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075284,
    "b": "HB 813",
    "s": "90R",
@@ -2125,6 +2191,22 @@
    "c": "Relating to the authority of a political subdivision to propose for voter approval the issuance of general obligation bonds for a purpose rejected by voters at a bond election held during the preceding five years.",
    "a": [
     "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075300,
+   "b": "HB 829",
+   "s": "90R",
+   "c": "Relating to the repeal of the Texas Jobs, Energy, Technology, and Innovation Act.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
    ],
    "i": "",
    "st": "introduced",
@@ -2689,6 +2771,21 @@
    "c": "Relating to excused absences from public school for a student's attendance at the funeral, burial, or memorial service of an immediate family member.",
    "a": [
     "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4075603,
+   "b": "HB 934",
+   "s": "90R",
+   "c": "Relating to the Breakthrough Program.",
+   "a": [
+    "Curriculum & Instruction"
    ],
    "i": "",
    "st": "introduced",
@@ -3496,6 +3593,52 @@
    "sm": false
   },
   {
+   "id": 4076380,
+   "b": "HB 1138",
+   "s": "90R",
+   "c": "Relating to requiring an election judge to provide a watcher removed from a polling place a signed statement containing the reason for the removal.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076410,
+   "b": "HB 1141",
+   "s": "90R",
+   "c": "Relating to creation and funding of professional teacher academies which are owned and operated by highly qualified teaching professionals in Texas and authorizing the commissioner of education to adopt rules to administer and fund the professional teacher academy program.",
+   "a": [
+    "School Finance",
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076414,
+   "b": "HB 1146",
+   "s": "90R",
+   "c": "Relating to grounds for recounting paperless electronic voting system ballots.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4076416,
    "b": "HB 1148",
    "s": "90R",
@@ -3511,11 +3654,57 @@
    "sm": false
   },
   {
+   "id": 4076430,
+   "b": "HB 1155",
+   "s": "90R",
+   "c": "Relating to inquiries about and the consideration of criminal history record information regarding an applicant for employment.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076432,
+   "b": "HB 1157",
+   "s": "90R",
+   "c": "Relating to contracts with and the acceptance of money from certain foreign sources by public schools and public institutions of higher education; providing administrative penalties.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076434,
+   "b": "HB 1158",
+   "s": "90R",
+   "c": "Relating to the use by a political subdivision of public funds for lobbying and certain other activities.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075345,
    "b": "HJR 23",
    "s": "90R",
    "c": "Proposing a constitutional amendment to abolish ad valorem taxes.",
    "a": [
+    "School Finance",
     "Property Taxes"
    ],
    "i": "",
@@ -3591,7 +3780,8 @@
    "s": "90R",
    "c": "Proposing a constitutional amendment providing for the creation of the Texas severance tax revenue and oil and natural gas (Texas STRONG) defense fund, dedicating the money in that fund to benefit areas of the state significantly affected by oil and gas production, and providing for the transfer of general revenue to that fund, the economic stabilization fund, and other funds used to construct roads, reduce the emission of air contaminants, regulate oil and gas development, and provide property tax relief.",
    "a": [
-    "School Finance"
+    "School Finance",
+    "Property Taxes"
    ],
    "i": "",
    "st": "introduced",
@@ -3651,6 +3841,7 @@
    "s": "90R",
    "c": "Proposing a constitutional amendment providing for the repeal of the Dementia Prevention and Research Institute of Texas and the Dementia Prevention and Research Fund to provide money for research on and prevention and treatment of dementia, Alzheimer's disease, Parkinson's disease, and related disorders in this state, and transferring from that fund $3 billion to Texas Education Agency for property tax relief.",
    "a": [
+    "School Finance",
     "Property Taxes"
    ],
    "i": "",
@@ -3666,6 +3857,7 @@
    "s": "90R",
    "c": "Proposing a constitutional amendment to abolish ad valorem taxes.",
    "a": [
+    "School Finance",
     "Property Taxes"
    ],
    "i": "",
@@ -3913,6 +4105,21 @@
    "c": "Relating to the immunization data included in and excluded from the immunization registry.",
    "a": [
     "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4074729,
+   "b": "SB 84",
+   "s": "90R",
+   "c": "Relating to grounds for recounting paperless electronic voting system ballots.",
+   "a": [
+    "Bonds, Elections & Debt"
    ],
    "i": "",
    "st": "introduced",
@@ -4217,7 +4424,8 @@
    "c": "Relating to requiring public schools to designate certain uniform election dates as staff development days.",
    "a": [
     "Bonds, Elections & Debt",
-    "Governance & Local Control"
+    "Governance & Local Control",
+    "Operations & Business"
    ],
    "i": "",
    "st": "introduced",
@@ -4325,6 +4533,7 @@
    "s": "90R",
    "c": "Relating to required training for school district peace officers and school resource officers on limitations on the officers' authority to restrain or otherwise incapacitate certain students.",
    "a": [
+    "Special Populations",
     "School Safety"
    ],
    "i": "",
@@ -4573,6 +4782,52 @@
    "st": "introduced",
    "f": "2026-11-12",
    "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076394,
+   "b": "SB 361",
+   "s": "90R",
+   "c": "Relating to the inclusion of additional printed languages for election materials in certain political subdivisions.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076395,
+   "b": "SB 362",
+   "s": "90R",
+   "c": "Relating to the age of criminal responsibility and to certain substantive and procedural matters related to that age.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076389,
+   "b": "SB 367",
+   "s": "90R",
+   "c": "Relating to the employment of full-time registered nurses at public schools.",
+   "a": [
+    "Educator Workforce",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
    "la": "Filed",
    "sm": false
   },
