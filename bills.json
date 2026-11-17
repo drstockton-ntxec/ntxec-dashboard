@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "preview": false,
  "bills": [
   {
@@ -3699,6 +3699,98 @@
    "sm": false
   },
   {
+   "id": 4076613,
+   "b": "HB 1164",
+   "s": "90R",
+   "c": "Relating to the compensation paid to sales agents for state lottery ticket sales.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-16",
+   "l": "2026-11-16",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076621,
+   "b": "HB 1167",
+   "s": "90R",
+   "c": "Relating to the collection, use, retention, disclosure, and auditing of automated license plate reader data by employers of peace officers or fire fighters.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-16",
+   "l": "2026-11-16",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076623,
+   "b": "HB 1168",
+   "s": "90R",
+   "c": "Relating to the authority of a school district to provide paid leave for wellness to district employees.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-16",
+   "l": "2026-11-16",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076626,
+   "b": "HB 1171",
+   "s": "90R",
+   "c": "Relating to the deadline for requesting an audit of the findings of the school district property value study conducted by the comptroller of public accounts.",
+   "a": [
+    "School Finance",
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-16",
+   "l": "2026-11-16",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076743,
+   "b": "HB 1187",
+   "s": "90R",
+   "c": "Relating to the rights of public school educators and financial and other assistance provided to educators and to public schools by the Texas Education Agency related to public school educators.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-16",
+   "l": "2026-11-16",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076744,
+   "b": "HB 1188",
+   "s": "90R",
+   "c": "Relating to measures to support kindergarten readiness and early literacy and numeracy skills for public school students, including an early childhood parental support program and prekindergarten programs in public schools, and to funding under the Foundation School Program for certain school districts and to support those measures.",
+   "a": [
+    "School Finance",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-16",
+   "l": "2026-11-16",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075345,
    "b": "HJR 23",
    "s": "90R",
@@ -4828,6 +4920,21 @@
    "st": "introduced",
    "f": "2026-11-13",
    "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076685,
+   "b": "SB 400",
+   "s": "90R",
+   "c": "Relating to collective bargaining rights and procedures for certain employees of a political subdivision.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-16",
+   "l": "2026-11-16",
    "la": "Filed",
    "sm": false
   },
