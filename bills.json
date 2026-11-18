@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "preview": false,
  "bills": [
   {
@@ -1984,6 +1984,21 @@
    "sm": false
   },
   {
+   "id": 4075235,
+   "b": "HB 763",
+   "s": "90R",
+   "c": "Relating to the use of automatic license plate reader systems.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075236,
    "b": "HB 764",
    "s": "90R",
@@ -3765,7 +3780,8 @@
    "s": "90R",
    "c": "Relating to the rights of public school educators and financial and other assistance provided to educators and to public schools by the Texas Education Agency related to public school educators.",
    "a": [
-    "Educator Workforce"
+    "Educator Workforce",
+    "Student Health & Discipline"
    ],
    "i": "",
    "st": "introduced",
@@ -3787,6 +3803,96 @@
    "st": "introduced",
    "f": "2026-11-16",
    "l": "2026-11-16",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076865,
+   "b": "HB 1195",
+   "s": "90R",
+   "c": "Relating to the basic allotment and guaranteed yield under the Foundation School Program, including an adjustment in those amounts to reflect inflation.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-17",
+   "l": "2026-11-17",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076876,
+   "b": "HB 1198",
+   "s": "90R",
+   "c": "Relating to a temporary exemption from ad valorem taxation of the appraised value of an improvement to a residence homestead that is completely destroyed by a flood or windstorm.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-17",
+   "l": "2026-11-17",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076896,
+   "b": "HB 1204",
+   "s": "90R",
+   "c": "Relating to a highway toll exemption for public school buses.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-17",
+   "l": "2026-11-17",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076919,
+   "b": "HB 1209",
+   "s": "90R",
+   "c": "Relating to an election to approve the issuance of bonds or other debt.",
+   "a": [
+    "Bonds, Elections & Debt"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-17",
+   "l": "2026-11-17",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076920,
+   "b": "HB 1210",
+   "s": "90R",
+   "c": "Relating to the use by a political subdivision of public funds for lobbying activities.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-17",
+   "l": "2026-11-17",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076926,
+   "b": "HB 1213",
+   "s": "90R",
+   "c": "Relating to cost-of-living increases applicable to certain benefits paid by the Teacher Retirement System of Texas.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-17",
+   "l": "2026-11-17",
    "la": "Filed",
    "sm": false
   },
@@ -4081,6 +4187,21 @@
    "st": "introduced",
    "f": "2026-11-12",
    "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4076928,
+   "b": "HJR 79",
+   "s": "90R",
+   "c": "Proposing a constitutional amendment to authorize the legislature to provide for a temporary exemption from ad valorem taxation of the appraised value of an improvement to a residence homestead that is completely destroyed by a flood or windstorm.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-17",
+   "l": "2026-11-17",
    "la": "Filed",
    "sm": false
   },
@@ -4712,6 +4833,21 @@
    "sm": false
   },
   {
+   "id": 4075505,
+   "b": "SB 268",
+   "s": "90R",
+   "c": "Relating to operations of and certain programs operated under the authority of juvenile boards.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075602,
    "b": "SB 271",
    "s": "90R",
@@ -4929,6 +5065,7 @@
    "s": "90R",
    "c": "Relating to collective bargaining rights and procedures for certain employees of a political subdivision.",
    "a": [
+    "Educator Workforce",
     "School Safety"
    ],
    "i": "",
@@ -4944,6 +5081,7 @@
    "s": "90R",
    "c": "Relating to the requirements for the operational plan for certain general residential operations licensed by the Health and Human Services Commission.",
    "a": [
+    "Special Populations",
     "Student Health & Discipline"
    ],
    "i": "",
@@ -4959,7 +5097,7 @@
    "s": "90R",
    "c": "Relating to the transfer of students between public schools.",
    "a": [
-    "Student Health & Discipline",
+    "Governance & Local Control",
     "School Choice & Charters"
    ],
    "i": "",
