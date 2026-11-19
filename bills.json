@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "preview": false,
  "bills": [
   {
@@ -3897,6 +3897,67 @@
    "sm": false
   },
   {
+   "id": 4077074,
+   "b": "HB 1227",
+   "s": "90R",
+   "c": "Relating to an annual report by the Texas Education Agency regarding public school campus closures.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077099,
+   "b": "HB 1233",
+   "s": "90R",
+   "c": "Relating to the repeal of certain public school requirements and prohibitions regarding instruction, diversity, equity, and inclusion duties at public schools.",
+   "a": [
+    "Governance & Local Control",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077106,
+   "b": "HB 1238",
+   "s": "90R",
+   "c": "Relating to the development of introductory career and technology education courses for use in public schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077108,
+   "b": "HB 1240",
+   "s": "90R",
+   "c": "Relating to repealing the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075345,
    "b": "HJR 23",
    "s": "90R",
@@ -5104,6 +5165,52 @@
    "st": "introduced",
    "f": "2026-11-17",
    "l": "2026-11-17",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077082,
+   "b": "SB 418",
+   "s": "90R",
+   "c": "Relating to the approval by the commissioner of education of and terms of certain contracts or contract amendments entered into by a school district during the pendency of certain special investigations authorized by the commissioner.",
+   "a": [
+    "Accountability & Assessment",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077083,
+   "b": "SB 419",
+   "s": "90R",
+   "c": "Relating to agreements regarding courses offered jointly by public junior colleges and school districts, organizations, or other persons operating high schools.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077091,
+   "b": "SB 430",
+   "s": "90R",
+   "c": "Relating to the electronic payment of ad valorem taxes; authorizing a fee.",
+   "a": [
+    "Property Taxes"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
    "la": "Filed",
    "sm": false
   },
