@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "preview": false,
  "bills": [
   {
@@ -1920,6 +1920,22 @@
    "sm": false
   },
   {
+   "id": 4075209,
+   "b": "HB 756",
+   "s": "90R",
+   "c": "Relating to certain mental health policies and services for peace officers, fire fighters, and telecommunicators.",
+   "a": [
+    "Educator Workforce",
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-09",
+   "l": "2026-11-09",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075231,
    "b": "HB 759",
    "s": "90R",
@@ -3334,6 +3350,21 @@
    "sm": false
   },
   {
+   "id": 4076076,
+   "b": "HB 1085",
+   "s": "90R",
+   "c": "Relating to the use of force by a peace officer to make an arrest or search.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-12",
+   "l": "2026-11-12",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4076077,
    "b": "HB 1086",
    "s": "90R",
@@ -3949,6 +3980,22 @@
    "c": "Relating to repealing the education savings account program.",
    "a": [
     "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077111,
+   "b": "HB 1243",
+   "s": "90R",
+   "c": "Relating to the interoperability of emergency communication equipment and infrastructure in this state, including the creation and operation of the Texas Interoperability Council, a grant program administered by the council, and the purchase of certain public safety radio communication systems.",
+   "a": [
+    "School Safety",
+    "Operations & Business"
    ],
    "i": "",
    "st": "introduced",
@@ -5121,6 +5168,21 @@
    "sm": false
   },
   {
+   "id": 4076401,
+   "b": "SB 369",
+   "s": "90R",
+   "c": "Relating to the use of facial coverings in law enforcement; creating a criminal offense.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-13",
+   "l": "2026-11-13",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4076685,
    "b": "SB 400",
    "s": "90R",
@@ -5211,6 +5273,97 @@
    "st": "introduced",
    "f": "2026-11-18",
    "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077093,
+   "b": "SB 432",
+   "s": "90R",
+   "c": "Relating to the eligibility of certain political subdivisions to receive a state loan or grant following the political subdivision's failure to comply with certain financial reporting requirements.",
+   "a": [
+    "School Finance",
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-18",
+   "l": "2026-11-18",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077318,
+   "b": "SB 442",
+   "s": "90R",
+   "c": "Relating to prohibited lottery games involving drawings and the time allotted for a lottery prize payment.",
+   "a": [
+    "School Finance"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-19",
+   "l": "2026-11-19",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077320,
+   "b": "SB 447",
+   "s": "90R",
+   "c": "Relating to enforcement within this state of certain federal laws for federally declared public health emergencies.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-19",
+   "l": "2026-11-19",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077311,
+   "b": "SB 451",
+   "s": "90R",
+   "c": "Relating to the statute of limitations for the offense of improper relationship between educator and student.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-19",
+   "l": "2026-11-19",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077325,
+   "b": "SB 456",
+   "s": "90R",
+   "c": "Relating to the membership of a school district's local school health advisory council.",
+   "a": [
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-19",
+   "l": "2026-11-19",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077327,
+   "b": "SB 458",
+   "s": "90R",
+   "c": "Relating to the use by a political subdivision of public funds for lobbying activities.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-19",
+   "l": "2026-11-19",
    "la": "Filed",
    "sm": false
   },
