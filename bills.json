@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "preview": false,
  "bills": [
   {
@@ -4020,6 +4020,51 @@
    "sm": false
   },
   {
+   "id": 4077472,
+   "b": "HB 1264",
+   "s": "90R",
+   "c": "Relating to providing to parents a copy of student emergency procedures included in a public school's multihazard emergency operations plan.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077473,
+   "b": "HB 1265",
+   "s": "90R",
+   "c": "Relating to repealing the education savings account program.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077492,
+   "b": "HB 1272",
+   "s": "90R",
+   "c": "Relating to the public disclosure of local economic development agreements involving data centers.",
+   "a": [
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4075345,
    "b": "HJR 23",
    "s": "90R",
@@ -5379,6 +5424,142 @@
    "st": "introduced",
    "f": "2026-11-19",
    "l": "2026-11-19",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077477,
+   "b": "SB 464",
+   "s": "90R",
+   "c": "Relating to a notification requirement if certain public schools do not have a nurse assigned to the school during all instructional hours.",
+   "a": [
+    "Governance & Local Control",
+    "Student Health & Discipline"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077478,
+   "b": "SB 465",
+   "s": "90R",
+   "c": "Relating to the misuse of money received for an open-enrollment charter school to support an out-of-state school.",
+   "a": [
+    "School Choice & Charters"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077479,
+   "b": "SB 466",
+   "s": "90R",
+   "c": "Relating to the removal of a conservator, board of managers, or other alternative management of a campus or school district in certain circumstances.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077481,
+   "b": "SB 468",
+   "s": "90R",
+   "c": "Relating to prohibiting a public school from discriminating or retaliating against an employee for reporting certain misconduct.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077482,
+   "b": "SB 469",
+   "s": "90R",
+   "c": "Relating to parental notification that a public school educator was engaged in romantic or sexual misconduct with a student enrolled at the school.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077483,
+   "b": "SB 470",
+   "s": "90R",
+   "c": "Relating to the applicability of certain financial provisions to campus or campus program charter schools.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077485,
+   "b": "SB 472",
+   "s": "90R",
+   "c": "Relating to authorizing school districts to provide funding using money received under the Foundation School Program to community-based organizations for purposes of reimbursing private employers for paid internships provided to certain students in career and technology education programs in the district.",
+   "a": [
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077486,
+   "b": "SB 473",
+   "s": "90R",
+   "c": "Relating to the requirement for educators serving as superintendents, directors, or principals of educational entities to report certain educator misconduct; increasing an administrative penalty.",
+   "a": [
+    "Educator Workforce"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077487,
+   "b": "SB 474",
+   "s": "90R",
+   "c": "Relating to the consideration of differentials among students from different racial and ethnic groups based on sex under the public school accountability system.",
+   "a": [
+    "Accountability & Assessment"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
    "la": "Filed",
    "sm": false
   },
