@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-26",
  "preview": false,
  "bills": [
   {
@@ -4020,6 +4020,22 @@
    "sm": false
   },
   {
+   "id": 4077462,
+   "b": "HB 1261",
+   "s": "90R",
+   "c": "Relating to the exercise of eminent domain for a demonstrated public necessity; limiting certain condemnation powers; requiring independent review, public hearings and county elections, enhanced compensation, repurchase rights, and revenue accounting; providing court review, injunctive relief, recovery of costs, and enforcement; contingent in part on a constitutional amendment.",
+   "a": [
+    "Governance & Local Control",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-20",
+   "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
    "id": 4077472,
    "b": "HB 1264",
    "s": "90R",
@@ -4061,6 +4077,53 @@
    "st": "introduced",
    "f": "2026-11-20",
    "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077546,
+   "b": "HB 1277",
+   "s": "90R",
+   "c": "Relating to compliance with the public information law, including operation of a hotline to provide information about open records requirements.",
+   "a": [
+    "Governance & Local Control"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-23",
+   "l": "2026-11-23",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077556,
+   "b": "HB 1278",
+   "s": "90R",
+   "c": "Relating to the promotion of a public school student from the third grade to the fourth grade, including reading proficiency requirements and accelerated instruction for certain students.",
+   "a": [
+    "Accountability & Assessment",
+    "Curriculum & Instruction"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-23",
+   "l": "2026-11-23",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077649,
+   "b": "HB 1283",
+   "s": "90R",
+   "c": "Relating to the exercise of the power of eminent domain by a political subdivision to acquire property outside the political subdivision's boundaries.",
+   "a": [
+    "Governance & Local Control",
+    "Operations & Business"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-24",
+   "l": "2026-11-24",
    "la": "Filed",
    "sm": false
   },
@@ -5433,7 +5496,7 @@
    "s": "90R",
    "c": "Relating to a notification requirement if certain public schools do not have a nurse assigned to the school during all instructional hours.",
    "a": [
-    "Governance & Local Control",
+    "Educator Workforce",
     "Student Health & Discipline"
    ],
    "i": "",
@@ -5464,6 +5527,7 @@
    "s": "90R",
    "c": "Relating to the removal of a conservator, board of managers, or other alternative management of a campus or school district in certain circumstances.",
    "a": [
+    "Governance & Local Control",
     "Accountability & Assessment"
    ],
    "i": "",
@@ -5560,6 +5624,21 @@
    "st": "introduced",
    "f": "2026-11-20",
    "l": "2026-11-20",
+   "la": "Filed",
+   "sm": false
+  },
+  {
+   "id": 4077558,
+   "b": "SB 475",
+   "s": "90R",
+   "c": "Relating to the use of facial coverings in law enforcement.",
+   "a": [
+    "School Safety"
+   ],
+   "i": "",
+   "st": "introduced",
+   "f": "2026-11-23",
+   "l": "2026-11-23",
    "la": "Filed",
    "sm": false
   },
