@@ -9,8 +9,10 @@ pull.json lives in the scratchpad, never in the repo.
      straight from those tool results, without retyping anything:
        python3 tools/build_bills.py tracks <session record .jsonl> pull.json
      The session record is the newest .jsonl under ~/.claude/projects/ (it holds every
-     tool result of the run). The command keeps, for each track, the bills from its most
-     recent results and checks the count against the track's totalCount.
+     tool result of the run; large results it only references by file are read from
+     those files). The command keeps, for each track, the bills from its most recent
+     results, checks the count against the track's totalCount, and warns about any track
+     it found no bills for.
      (Equivalent manual format, one entry per bill under "tracks"["<track name>"]:
        {"id": <billId>, "type": "HB", "number": "6", "caption": "<summary field>",
         "lastAction": "<lastAction>", "lastActionDate": "YYYY-MM-DD", "impact": "High"|"Medium"|"Low"|null})
@@ -21,11 +23,11 @@ pull.json lives in the scratchpad, never in the repo.
      every bill without a summary yet, plus any changed bill, so a summary posted on the
      portal shows on the dashboard after the next daily refresh.
 
-  3. Lookups. Call get-portal-bills once on the "90th Legislative Session Education Bills"
-     portal with limit 2000 (follow nextCursor if it is not null). The result is large, so
-     it is saved to a file whose path the tool response gives (under the session's
-     tool-results folder); pass that file (or several, one per page) here:
-       python3 tools/build_bills.py lookups pull.json <portal result file> [...]
+  3. Lookups. Call get-portal-bills on the "90th Legislative Session Education Bills"
+     portal with limit 100 (the most it allows), calling again with nextCursor until it
+     is null. Then pass the session record, which holds every page (saved files included):
+       python3 tools/build_bills.py lookups pull.json <session record .jsonl>
+     (Portal result files or JSON pages can be passed instead of the record.)
      It fills "lookups" for every id in the plan's "lookup" list and prints any bill
      ids that are not on the portal.
      Then, for each id in "summary_check", call list-bill-comments and record under
@@ -38,12 +40,14 @@ Exit code 3 from plan or build means there are no 90th session bills yet: leave 
 preview bills.json in place and stop.
 """
 import json
+import re
 import sys
 from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BILLS = ROOT / "bills.json"
+SAVED = re.compile(r"Full output saved to: (\S+\.(?:txt|json))")
 
 # USLege track name (without " (90)") -> dashboard policy area
 TRACK_AREAS = {
@@ -63,6 +67,54 @@ TRACK_AREAS = {
 AREA_ORDER = list(TRACK_AREAS.values())
 SPECIAL = {"FirstSpecial": "1", "SecondSpecial": "2", "ThirdSpecial": "3", "FourthSpecial": "4",
            "FifthSpecial": "5", "SixthSpecial": "6"}
+
+
+def _full(text):
+    """A large tool result is kept out of the session record, which then holds a short
+    "<persisted-output>" stub naming the file under tool-results/ that has it."""
+    m = SAVED.search(text) if "<persisted-output>" in text else None
+    if m:
+        f = Path(m.group(1))
+        if f.parent.name == "tool-results" and f.is_file():
+            return f.read_text()
+    return text
+
+
+def _results(o):
+    """Every tool result text in a parsed session record line, with saved files read in."""
+    if isinstance(o, dict):
+        if o.get("type") == "tool_result":
+            c = o.get("content")
+            if isinstance(c, str):
+                yield _full(c)
+            elif isinstance(c, list):
+                for x in c:
+                    if isinstance(x, dict) and x.get("type") == "text":
+                        yield _full(x["text"])
+        else:
+            for v in o.values():
+                yield from _results(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _results(v)
+
+
+def record_payloads(session_file, key):
+    """JSON tool results in a session record that contain the given top-level key."""
+    for line in Path(session_file).read_text().splitlines():
+        try:
+            rec = json.loads(line)
+        except ValueError:
+            continue
+        for text in _results(rec):
+            if f'"{key}"' not in text:
+                continue
+            try:
+                d = json.loads(text)
+            except ValueError:
+                continue
+            if isinstance(d, dict) and key in d:
+                yield d
 
 
 def area_for(track_name):
@@ -124,38 +176,10 @@ def plan(pull):
 
 def tracks(session_file, out_file):
     """Build pull.json "tracks" from the get-track-bills results in a session record."""
-    def results(o):
-        if isinstance(o, dict):
-            if o.get("type") == "tool_result":
-                c = o.get("content")
-                if isinstance(c, str):
-                    yield c
-                elif isinstance(c, list):
-                    for x in c:
-                        if isinstance(x, dict) and x.get("type") == "text":
-                            yield x["text"]
-            else:
-                for v in o.values():
-                    yield from results(v)
-        elif isinstance(o, list):
-            for v in o:
-                yield from results(v)
-
     pages = {}  # track name -> list of result payloads, oldest first
-    for line in Path(session_file).read_text().splitlines():
-        try:
-            rec = json.loads(line)
-        except ValueError:
-            continue
-        for text in results(rec):
-            if '"trackedBills"' not in text:
-                continue
-            try:
-                d = json.loads(text)
-            except ValueError:
-                continue
-            if d.get("trackedBills"):
-                pages.setdefault(d["trackedBills"][0]["trackName"], []).append(d)
+    for d in record_payloads(session_file, "trackedBills"):
+        if d.get("trackedBills"):
+            pages.setdefault(d["trackedBills"][0]["trackName"], []).append(d)
 
     def iso(s):
         return datetime.strptime(s[4:15], "%b %d %Y").date().isoformat()
@@ -179,6 +203,10 @@ def tracks(session_file, out_file):
     Path(out_file).write_text(json.dumps({"tracks": out, "lookups": {}, "summaries": {}},
                                          indent=1, ensure_ascii=False))
     print(json.dumps({name: len(v) for name, v in out.items()}))
+    absent = [t + " (90)" for t in TRACK_AREAS if t + " (90)" not in out]
+    if out and absent:
+        print(f"Warning: no bills read for {absent}. Fine if those tracks are empty; "
+              "otherwise call get-track-bills for them and rerun.", file=sys.stderr)
 
 
 def lookups(pull_file, portal_files):
@@ -186,8 +214,13 @@ def lookups(pull_file, portal_files):
     cur, prev = merge_tracks(pull), previous()
     portal = {}
     for f in portal_files:
-        for b in json.loads(Path(f).read_text())["bills"]:
-            portal[str(b["id"])] = b
+        if f.endswith(".jsonl"):  # session record: every get-portal-bills page in it
+            payloads = record_payloads(f, "bills")
+        else:
+            payloads = [json.loads(Path(f).read_text())]
+        for d in payloads:
+            for b in d["bills"]:
+                portal[str(b["id"])] = b
     missing = []
     for bid, b in cur.items():
         p = prev.get(bid)
